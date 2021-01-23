@@ -3,8 +3,11 @@ import PropTypes from 'prop-types'
 
 import Image from './Image'
 import Content from './Content'
+import BackgroundVideo from '../components/BackgroundVideo'
 import './PageHeader.css'
 
+const video = 'https://res.cloudinary.com/duttuhph7/video/upload/v1611437278/wood_plyauq'
+const videoPoster = ''
 const PageHeader = ({
   title,
   subtitle,
@@ -16,20 +19,12 @@ const PageHeader = ({
   return (
     <div className={`PageHeader relative ${className}`}>
       {backgroundImage && (
-        <Image
-          background
-          resolutions="large"
-          src={backgroundImage}
-          alt={title}
-          size="cover"
-        />
+        <section className="BackgroundVideo-section section">
+          <BackgroundVideo poster={videoPoster} videoTitle={title} videoSubtitle={subtitle}>
+            {video && <source src={video} type="video/mp4" />}
+          </BackgroundVideo>
+        </section>
       )}
-      <div className="container relative">
-        <h1 className="PageHeader--Title">{title}</h1>
-        {subtitle && (
-          <Content className="PageHeader--Subtitle" src={subtitle} />
-        )}
-      </div>
     </div>
   )
 }

@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import ReactDOM from 'react-dom'
-import Image from './Image'
 
 import './BackgroundVideo.css'
 
@@ -39,10 +38,10 @@ class BackgroundVideo extends Component {
   }
 
   render() {
-    const { poster, videoTitle, children } = this.props
+    const { poster, videoTitle, videoSubtitle, children } = this.props
     return (
       <Fragment>
-        {!this.state.mobileWidth && (
+        {
           <div className={`BackgroundVideo`}>
             <video
               ref={this.ref}
@@ -58,17 +57,18 @@ class BackgroundVideo extends Component {
             >
               {children}
             </video>
+            <div>
             {videoTitle && (
-              <div className="BackgroundVideo--videoTitle">{videoTitle}</div>
+              <h1 className="BackgroundVideo--videoTitle">{videoTitle}</h1>
+              
             )}
+            {videoSubtitle && (
+              <div className='BackgroundVideo--videoSubtitle'>{videoSubtitle}</div>
+            )}
+            </div>
           </div>
-        )}
-        {this.state.mobileWidth && (
-          <Fragment>
-            <Image background src={poster} alt="Background poster" />
-            {videoTitle && <h3 className="Poster--videoTitle">{videoTitle}</h3>}
-          </Fragment>
-        )}
+        }
+
       </Fragment>
     )
   }
