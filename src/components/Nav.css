@@ -7,6 +7,23 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
 }
 
+.Nav:after {
+  content: "";
+    position: fixed;
+    top: -100vh;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -1;
+    transform: scaleY(0);
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    background: #fff;
+    transition: opacity .6s ease-out,transform .4s cubic-bezier(.04,.04,.12,.96);
+    pointer-events: none;
+}
+
 .Nav--Container {
   display: flex;
   align-items: center;
@@ -126,6 +143,7 @@
     position: fixed;
     justify-content: end;
     top: 6rem;
+    padding-top: 4rem;
     left: 0;
     right: 0;
     bottom: 0;
