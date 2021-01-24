@@ -17,7 +17,7 @@
 }
 
 .PageHeader__content {
-  position: absolute;
+  position: absolute!important;
   bottom: 7%;
   left: 7%;
 }
