@@ -72,7 +72,10 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
+<<<<<<< HEAD
             
+=======
+>>>>>>> f012355f483022c47e850018e6b535e60911d30f
             <Nav subNav={subNav} />
 
             <Fragment>{children}</Fragment>

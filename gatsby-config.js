@@ -49,7 +49,11 @@ module.exports = {
         background_color: '#6d8536',
         theme_color: '#6d8536',
         display: 'standalone',
+<<<<<<< HEAD
         icon: `${__dirname}/static/images/logo.png` 
+=======
+        icon: `${__dirname}/static/images/logo.png` // This path is relative to the root of the site.
+>>>>>>> f012355f483022c47e850018e6b535e60911d30f
       }
     },
 

@@ -14,7 +14,7 @@ class BackgroundVideo extends Component {
   }
 
   updateDimensions() {
-    this.setState({ mobileWidth: window.innerWidth <= 900 })
+    //this.setState({ mobileWidth: window.innerWidth <= 900 })
   }
 
   handelPlay() {

@@ -13,7 +13,7 @@ import Popup from '../components/Popup'
 export const ComponentsPageTemplate = ({
   title,
   subtitle,
-  featuredImage,
+  heroVideo,
   section1,
   section2,
   video,
@@ -27,7 +27,7 @@ export const ComponentsPageTemplate = ({
     <PageHeader
       title={title}
       subtitle={subtitle}
-      backgroundImage={featuredImage}
+      heroVideo={heroVideo}
     />
     <section className="section">
       <div className="container">
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        featuredImage
+        heroVideo
         section1
         section2
         video
