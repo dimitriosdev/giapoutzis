@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Yellowcake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    title: 'xilinapatomata',
+    siteUrl: 'https://xilina.netlify.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -11,8 +11,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        /*id: 'GTM-add_your_tag_here',*/
-        id: 'GTM-P4RNF8D',
+        id: 'G-5M9L3WG653',
         includeInDevelopment: false
       }
     },
@@ -50,7 +49,7 @@ module.exports = {
         background_color: '#6d8536',
         theme_color: '#6d8536',
         display: 'standalone',
-        icon: `${__dirname}/static/images/logo.png` // This path is relative to the root of the site.
+        icon: `${__dirname}/static/images/logo.png` 
       }
     },
 

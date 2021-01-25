@@ -28,16 +28,16 @@
 }
 
 .BackgroundVideo--videoTitle {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0, -50%);
   font-size: 4rem;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px grey;
+  margin-bottom: 0;
+  max-width: 65ch;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.143;
+}
+.BackgroundVideo--videoSubtitle {
+  font-weight: 400;
+  font-size: 1.8rem;
 }
 
 .Poster--videoTitle {
