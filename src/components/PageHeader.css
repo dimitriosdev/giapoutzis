@@ -18,7 +18,7 @@
 
 .PageHeader__content {
   position: absolute!important;
-  bottom: 7%;
+  bottom: 14%;
   left: 7%;
 }
 
@@ -36,11 +36,13 @@
   animation: fadeIn 0.5s ease-out;
 }
 
-@media screen and (max-width: 47.9375em) {
+ @media screen and (max-width: 47.9375em) {
   .PageHeader {
     padding: 7rem 0;
   }
-  .PageHeader-large {
-    padding: 12.5rem 0;
+  .PageHeader__content {
+    position: relative;
+    left: 7%;
+    padding-top: 80%;
   }
-}
+} 
