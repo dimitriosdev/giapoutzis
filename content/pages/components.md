@@ -1,16 +1,27 @@
 ---
 template: ComponentsPage
 slug: components
-title: Components Page
-featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
-subtitle: This is the components page subtitle.
+title: ''
+subtitle: Υπηρεσίες
+heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1611525654/part1_her6gs.mp4
+
 section1: >-
-  ## This is a container component
+  ### Υπηρεσίες
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  * Τοποθέτηση 
+  * Επισκευή 
+  * Τρίψιμο
+  * Γυάλισμα
 
+  ### Πατώματα
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt vestibulum.
+  * Καρφωτά
+  * Κολλητά
+  * Δάπεδα εξωτερικού χώρου
+  * Deck
+  * Laminate
+
+  
 section2: >-
   ## You can use videos, images and text.
 
