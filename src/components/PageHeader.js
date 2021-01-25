@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import BackgroundVideo from '../components/BackgroundVideo'
 import Content from './Content'
 import BackgroundVideo from '../components/BackgroundVideo'
 import './PageHeader.css'
