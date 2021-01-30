@@ -33,9 +33,9 @@ class BackgroundVideo extends Component {
     )
   }
 
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateDimensions)
-  }
+  // componentWillUnmount() {
+  //   window.removeEventListener('resize', this.updateDimensions)
+  // }
 
   render() {
     const { poster, videoTitle, videoSubtitle, children } = this.props

@@ -1,22 +1,11 @@
 .PageHeader {
   background-color: var(--darkGrey);
   color: white;
-  /* padding: 15rem 0; */
+  padding: 15rem 0;
 }
 
 .PageHeader .BackgroundImage {
   opacity: 0.8;
-  position: absolute;
-  width: auto;
-  height: auto;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  transform: translateX(-50%) translateY(-50%);
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: #191919;
 }
 
 .PageHeader-large {
@@ -36,10 +25,6 @@
 .PageHeader--Title {
   font-size: 3rem;
   margin-bottom: 0;
-  max-width: 65ch;
-  font-weight: 700;
-  color: var(--color-text);
-  line-height: 1.143;
 }
 
 .PageHeader--Subtitle {
@@ -49,12 +34,60 @@
 
 .PageHeader .container {
   animation: fadeIn 0.5s ease-out;
-  top: 14rem;
 }
 
  @media screen and (max-width: 47.9375em) {
   .PageHeader {
-    padding: 3rem 0;
+    padding: 7rem 0;
+  }
+  .PageHeader__content {
+    position: relative;
+    left: 7%;
+    padding-top: 80%;
+  }
+} 
+.PageHeader {
+  background-color: var(--darkGrey);
+  color: white;
+  padding: 15rem 0;
+}
+
+.PageHeader .BackgroundImage {
+  opacity: 0.8;
+}
+
+.PageHeader-large {
+  padding: 20rem 0;
+  margin-top: -56px;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #191919;
+}
+
+.PageHeader__content {
+  position: absolute!important;
+  bottom: 14%;
+  left: 7%;
+}
+
+.PageHeader--Title {
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 0;
+}
+
+.PageHeader--Subtitle {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.PageHeader .container {
+  animation: fadeIn 0.5s ease-out;
+}
+
+ @media screen and (max-width: 47.9375em) {
+  .PageHeader {
+    padding: 7rem 0;
   }
   .PageHeader__content {
     position: relative;
