@@ -195,6 +195,27 @@ blockquote {
   max-width: 555px;
 }
 
+.row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+}
+
+.column {
+  position: relative;
+    max-width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width: 79em) {
+  .row {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+
 /* Buttons */
 
 .Button {

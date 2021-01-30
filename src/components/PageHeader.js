@@ -31,7 +31,8 @@ const PageHeader = ({
 
 PageHeader.propTypes = {
   title: PropTypes.string,
-  subtitle: PropTypes.string
+  subtitle: PropTypes.string,
+  heroVideo: PropTypes.string
 }
 
 export default PageHeader
