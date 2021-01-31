@@ -36,6 +36,13 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string, required: false }
           - { label: Hero Video, name: heroVideo, widget: file }
+          - { label: Hero Title, name: statTitle, widget: string }
+          - { label: Hero Subtitle, name: statSubtitle, widget: string }
+          - { label: Hero Year, name: statYear, widget: string }
+          - { label: Hero Year Text, name: statYearText, widget: string }
+          - { label: Hero Clients, name: statClients, widget: string }
+          - { label: Hero Clients Text, name: statClientsText, widget: string }
+          - { label: Youtube, name: youtubeSection, widget: string }
           - { label: Body, name: body, widget: markdown }
           - label: 'Meta'
             required: false
@@ -159,7 +166,7 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
       - file: 'content/pages/contact.md'
-        label: 'Contact Page'
+        label: 'Επικοινωνία'
         name: 'contact-page'
         fields:
           - {
