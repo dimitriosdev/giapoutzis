@@ -1,5 +1,5 @@
 :root {
-  --primary: #6d8536;
+  --primary: #8a7a63;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: var(--primary);
+  color: var(--midGrey);
 }
 
 strong {
@@ -219,7 +219,7 @@ blockquote {
 /* Buttons */
 
 .Button {
-  background: var(--primary);
+  background: var(--midGrey);
   color: white;
   text-transform: uppercase;
   text-decoration: none;
