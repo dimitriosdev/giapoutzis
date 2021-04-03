@@ -1,27 +1,31 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
+title: Επικοινωνία
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
-email: example@example.com
+subtitle: για τιμές και προσφορές
+address: 'Στρατηγού Μακρυγιάννη 122 43 Αιγάλεω, Ελλάδα'
+phone: +30 6944 756725
+email: tolisgiap@yahoo.gr
 locations:
   - lat: '-27.9654732'
     lng: '153.2432449'
     mapLink: ''
 meta:
-  description: This is a meta description.
-  title: Contact Page
+  description: Ξύλινα πατώματα - επικοινωνία
+  title: Ξύλινα πατώματα - Επικοινωνία
 ---
 
-# Example contact form
+# Επικοινωνία
 
-This form is setup to use Netlify's form handling:
+Λειτουργικότητα ή αισθητική; Τα ξύλινα πατώματα σας προσφέρουν και τα δύο. Εμείς, την τοποθέτηση και την συντήρησή τους. Αναλαμβάνουμε την τοποθέτηση ξύλινων δαπέδων, πατωμάτων laminate, δαπέδων εξωτερικού χώρου - deck.
 
-- the form action is set to the current absolute url: `action: '/contact/'`
-- a name attribute is sent with the form's data `'form-name': 'Contact'`
-- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
 
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+Στόχος μας είναι ο πελάτης να αισθάνεται απόλυτη ικανοποίηση με το τελικό αποτέλεσμα και την επιλογή του.
+
+
+* Γιατί να επιλέξω ξύλινο πάτωμα;
+* Τι είδος ξύλου να επιλέξω για το πάτωμά μου;
+* Πόσο θα μου κοστίσει η τοποθέτηση ξύλινου δαπέδου;
+
+Μην διστάσετε να επικοινωνήσετε μαζί μας

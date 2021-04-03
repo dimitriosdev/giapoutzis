@@ -38,11 +38,6 @@ export const HomePageTemplate = ({
       statTitle={statTitle}
       statSubtitle={statSubtitle}>
     </Stats>
-    <section className="section">
-      <div className="container">
-        <Content source={youtubeSection} />
-      </div>
-    </section>
     
     <section className="section">
       <div className="container">
@@ -56,6 +51,14 @@ export const HomePageTemplate = ({
         <Content source={body} />
       </div>
     </section>
+
+    <section className="section">
+      <div className="container">
+        <Content source={youtubeSection} />
+      </div>
+    </section>
+    
+    
   </main>
 )
 

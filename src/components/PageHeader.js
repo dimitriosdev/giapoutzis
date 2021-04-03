@@ -12,11 +12,13 @@ const PageHeader = ({
   large,
   className = ''
 }) => {
-  if (large) className += ' PageHeader-large'
+
+  if (large) {className += ' PageHeader-large'}
+  const custClass = (large) ? '' : 'unsetHeight'
   return (
     <div className={`PageHeader relative ${className}`}>
 
-      <BackgroundVideo poster='' videoTitle=''>
+      <BackgroundVideo poster='' videoTitle='' customClassName={custClass}>
         {heroVideo && <source src={heroVideo} type="video/mp4" />}
       </BackgroundVideo>
       <div className="PageHeader__content container relative">
