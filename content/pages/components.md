@@ -1,8 +1,8 @@
 ---
 template: ComponentsPage
 slug: components
-title: ''
-subtitle: Υπηρεσίες
+title: 'Υπηρεσίες'
+subtitle: ''
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1611525654/part1_her6gs.mp4
 
 section1: >-
@@ -50,6 +50,6 @@ gallery:
     image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
     title: Yellow Ice Cream
 meta:
-  description: This is a meta description.
-  title: Components Page
+  description: Ξύλινα πατώματα - υπηρεσίες 
+  title: Ξύλινα πατώματα - Υπηρεσίες
 ---

@@ -15,16 +15,17 @@ export const ContactPageTemplate = ({
   title,
   subtitle,
   featuredImage,
+  heroVideo,
   address,
   phone,
   email,
-  locations
+  // locations
 }) => (
   <main className="Contact">
     <PageHeader
       title={title}
       subtitle={subtitle}
-      backgroundImage={featuredImage}
+      heroVideo={heroVideo}
     />
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
@@ -87,6 +88,7 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage
+        heroVideo
         address
         phone
         email

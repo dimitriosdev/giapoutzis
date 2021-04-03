@@ -39,6 +39,7 @@ export const BlogIndexTemplate = ({
   title,
   subtitle,
   featuredImage,
+  heroVideo,
   posts = [],
   postCategories = [],
   enableSearch = true,
@@ -66,7 +67,7 @@ export const BlogIndexTemplate = ({
           <PageHeader
             title={title}
             subtitle={subtitle}
-            backgroundImage={featuredImage}
+            heroVideo={heroVideo}
           />
 
           {!!postCategories.length && (
@@ -133,6 +134,7 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage
+        heroVideo
       }
     }
 

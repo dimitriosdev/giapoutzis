@@ -3,6 +3,7 @@ template: ContactPage
 slug: contact
 title: Επικοινωνία
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1611525654/part1_her6gs.mp4
 subtitle: για τιμές και προσφορές
 address: 'Στρατηγού Μακρυγιάννη 122 43 Αιγάλεω, Ελλάδα'
 phone: +30 6944 756725
