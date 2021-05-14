@@ -5,8 +5,8 @@
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
-  --font-system: system-ui; /* postcssPresetEnv */
+  --font-primary: 'Advent Pro', sans-serif, system-ui;
+  --font-system: 'Advent Pro', system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
 }
 
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: var(--font-system);
+  font-family: var(--font-primary);
   min-height: 100%;
   position: relative;
   background: white;
@@ -203,10 +203,10 @@ blockquote {
 
 .column {
   position: relative;
-    max-width: 100%;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 0;
+  max-width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 @media screen and (min-width: 79em) {
