@@ -3,10 +3,14 @@ import PropTypes from 'prop-types'
 import './Stats.css'
 
 const Stats = ({
-    statYear,
-    statYearText,
-    statClients,
-    statClientsText,
+    statOne,
+    statOneText,
+    statTwo,
+    statTwoText,
+    statThree,
+    statThreeText,
+    statFour,
+    statFourText,
     statTitle,
     statSubtitle
   }) => {
@@ -18,12 +22,22 @@ const Stats = ({
                         <div className='snippet-list'>
                             <div className='row'>
                                 <div className='column stats__col-6'>
-                                    <h4>{statYear}</h4>
-                                    <p>{statYearText}</p>
+                                    <h4>{statOne}</h4>
+                                    <p>{statOneText}</p>
                                 </div>
                                 <div className='column stats__col-6'>
-                                <h4>{statClients}</h4>
-                                    <p>{statClientsText}</p>
+                                <h4>{statTwo}</h4>
+                                    <p>{statTwoText}</p>
+                                </div>
+                            </div>
+                            <div className='row'>
+                                <div className='column stats__col-6'>
+                                    <h4>{statThree}</h4>
+                                    <p>{statThreeText}</p>
+                                </div>
+                                <div className='column stats__col-6'>
+                                <h4>{statFour}</h4>
+                                    <p>{statFourText}</p>
                                 </div>
                             </div>
                         </div>

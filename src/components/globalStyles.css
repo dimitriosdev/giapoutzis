@@ -143,6 +143,17 @@ blockquote {
 .taRight {
   text-align: right;
 }
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.m-t-b-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 @keyframes fadeIn {
   from {

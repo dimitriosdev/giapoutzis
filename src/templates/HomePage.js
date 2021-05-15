@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Stats from '../components/Stats'
 import Gallery from '../components/Gallery'
+import Accordion from '../components/Accordion'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 
@@ -14,12 +15,18 @@ export const HomePageTemplate = ({
   heroVideo,
   statTitle,
   statSubtitle,
-  statYear,
-  statYearText,
-  statClients,
-  statClientsText,
-  youtubeSection,
+  statOne,
+  statOneText,
+  statTwo,
+  statTwoText,
+  statThree,
+  statThreeText,
+  statFour,
+  statFourText,
+  galleryTitle,
   gallery,
+  accordionTitle,
+  accordion,
   body
 }) => (
 
@@ -31,34 +38,37 @@ export const HomePageTemplate = ({
       heroVideo={heroVideo}
     />
     <Stats
-      statYear={statYear}
-      statYearText={statYearText}
-      statClients={statClients}
-      statClientsText={statClientsText}
+      statOne={statOne}
+      statOneText={statOneText}
+      statTwo={statTwo}
+      statTwoText={statTwoText}
+      statThree={statThree}
+      statThreeText={statThreeText}
+      statFour={statFour}
+      statFourText={statFourText}
       statTitle={statTitle}
       statSubtitle={statSubtitle}>
     </Stats>
-    
     <section className="section">
       <div className="container">
-        <h3>Ενδεικτικά project</h3>
+        <h3>{galleryTitle}</h3>
         <Gallery images={gallery} />
+        <div className='flexCenter m-t-b-10'>
+          <a href='/blog'>Δείτε περισσότερες δουλείες μας</a>
+        </div>
       </div>
     </section>
-
+    <section className="section">
+      <div className="container">
+      <h3>{accordionTitle}</h3>
+        <Accordion items={accordion} />
+      </div>
+    </section>
     <section className="section">
       <div className="container">
         <Content source={body} />
       </div>
     </section>
-
-    <section className="section">
-      <div className="container">
-        <Content source={youtubeSection} />
-      </div>
-    </section>
-    
-    
   </main>
 )
 
@@ -87,11 +97,20 @@ export const pageQuery = graphql`
         heroVideo
         statTitle
         statSubtitle
-        statYear
-        statYearText
-        statClients
-        statClientsText
-        youtubeSection
+        statOne
+        statOneText
+        statTwo
+        statTwoText
+        statThree
+        statThreeText
+        statFour
+        statFourText
+        galleryTitle
+        accordionTitle
+        accordion {
+          title
+          description
+        }
       }
     }
   }

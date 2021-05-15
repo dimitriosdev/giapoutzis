@@ -1,41 +1,41 @@
 .stats__col-12 {
-    max-width: 100%;
-    flex-basis: 100%;
+  max-width: 100%;
+  flex-basis: 100%;
 }
 
 .stats__col-6 {
-    max-width: 50%;
-    flex-basis: 50%;
+  max-width: 50%;
+  flex-basis: 50%;
 }
 
 .stats__col-6 h4 {
-    font-size: 24px;
-    line-height: 1.333;
+  font-size: 24px;
+  line-height: 1.333;
 }
 
 .stats__col-6 p {
-    font-size: 16px;
-    line-height: 1.333;
+  font-size: 16px;
+  line-height: 1.333;
 }
 
 .snippet-list {
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .text-block h2 {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.333;  
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.333;
 }
 
 .text-block p {
-    font-size: 16px;
-    line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 @media print, screen and (min-width: 48em) {
-    .stats__col-12 {
-        max-width: 50%;
-        flex-basis: 50%;
-    }
+  .stats__col-12 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
 }
