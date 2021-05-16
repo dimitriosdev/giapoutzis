@@ -157,7 +157,7 @@
   .NavLink:hover,
   .NavLink.active,
   .NavLink:focus {
-    color: var(--lightGrey);
+    color: var(--darkGrey);
     border-bottom-color: #8a7a63;
   }
 

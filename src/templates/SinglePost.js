@@ -22,12 +22,12 @@ export const SinglePostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
+        <Link className="SinglePost--BackButton" to="/projects/">
           <ChevronLeft /> Επιστροφή
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
-            {date && (
+            {/* {date && (
               <time
                 className="SinglePost--Meta--Date"
                 itemProp="dateCreated pubdate datePublished"
@@ -35,10 +35,10 @@ export const SinglePostTemplate = ({
               >
                 {date}
               </time>
-            )}
+            )} */}
             {categories && (
               <Fragment>
-                <span>|</span>
+                {/* <span>|</span> */}
                 {categories.map((cat, index) => (
                   <span
                     key={cat.category}
@@ -69,7 +69,7 @@ export const SinglePostTemplate = ({
                 className="SinglePost--Pagination--Link prev"
                 to={prevPostURL}
               >
-                Προηγούμενο
+                Προηγουμενο
               </Link>
             )}
             {nextPostURL && (
@@ -77,7 +77,7 @@ export const SinglePostTemplate = ({
                 className="SinglePost--Pagination--Link next"
                 to={nextPostURL}
               >
-                Επόμενο
+                Επομενο
               </Link>
             )}
           </div>

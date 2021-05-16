@@ -1,22 +1,23 @@
 ---
 template: SinglePost
-title: City
+title: Σπέτσες
 status: Featured / Published
 date: '2018-03-27'
-featuredImage: 'https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/'
+featuredImage: 'https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/'
 excerpt: >-
   Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
   interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
   est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
 categories:
-  - category: News
+  - category: Deck
 meta:
   canonicalLink: ''
   description: test meta description
   noindex: false
   title: test meta title
 ---
+
 Paragraphs are separated by a blank line.
 
 ![Test Image](https://ucarecdn.com/ac9898a0-413a-467b-95fa-0a9959c30710/)
@@ -27,9 +28,9 @@ The second paragraph. This is placeholder text that our web designers put here t
 
 ### Unordered lists:
 
-* this one
-* that one
-* the other one
+- this one
+- that one
+- the other one
 
 ### Ordered lists:
 

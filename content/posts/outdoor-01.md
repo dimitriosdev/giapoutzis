@@ -1,12 +1,12 @@
 ---
 template: SinglePost
-title: Post Two
+title: Άγιος Δημήτριος
 status: Published
 date: '2018-03-28'
-featuredImage: 'https://ucarecdn.com/57002902-e8b3-4315-9995-beb637b29128/'
+featuredImage: 'https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/'
 excerpt: This is an excerpt of Post Two
 categories:
-  - category: Updates
+  - category: Επενδύσεις εξ.χώρου
 meta:
   description: test meta description
   title: test meta title

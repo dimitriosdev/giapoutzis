@@ -40,7 +40,7 @@ export const HomePageTemplate = ({
         <h3 className='p-b-20'>{galleryTitle}</h3>
         <Gallery images={gallery} />
         <div className='flexCenter m-t-b-10'>
-          <a href='/blog'>Δείτε περισσότερες δουλείες μας</a>
+          <a href='/projects'>Δείτε περισσότερες δουλείες μας</a>
         </div>
       </div>
     </section>

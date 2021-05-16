@@ -94,7 +94,7 @@ export class Navigation extends Component {
               >
                 Οι δουλειές μας
                 <div className="Nav--GroupLinks">
-                  <NavLink to="/blog/" className="Nav--GroupLink">
+                  <NavLink to="/projects/" className="Nav--GroupLink">
                     Όλες
                   </NavLink>
                   {subNav.posts.map((link, index) => (
