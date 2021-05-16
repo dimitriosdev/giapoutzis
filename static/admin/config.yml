@@ -102,63 +102,6 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/components.md'
-        label: 'Υπηρεσίες'
-        name: 'components-page'
-        fields:
-          - {
-              label: Template,
-              name: template,
-              widget: hidden,
-              default: ComponentsPage,
-            }
-          - { label: Slug, name: slug, widget: hidden, default: 'components' }
-          - { label: Title, name: title, widget: string }
-          - { label: Subtitle, name: subtitle, widget: string }
-          - { label: Hero Video, name: heroVideo, widget: file }
-          - { label: Section 1, name: section1, widget: markdown }
-          - { label: Section 2, name: section2, widget: markdown }
-          - { name: video, label: video, widget: file }
-          - { name: videoPoster, label: videoPoster, widget: image }
-          - { label: videoTitle, name: videoTitle, widget: string }
-          - label: 'accordion'
-            name: 'accordion'
-            widget: 'list'
-            fields:
-              - { name: title, label: title, widget: string, default: '' }
-              - { name: description, label: description, widget: string }
-          - label: 'Gallery'
-            name: 'gallery'
-            widget: 'list'
-            fields:
-              - { name: image, label: Image, widget: image }
-              - { name: alt, label: Alt, widget: string }
-              - { name: title, label: Title, widget: string, required: false }
-          - label: 'Meta'
-            required: false
-            name: 'meta'
-            widget: 'object'
-            fields:
-              - { label: Title, name: title, widget: string, required: false }
-              - {
-                  label: Description,
-                  name: description,
-                  widget: text,
-                  required: false,
-                }
-              - {
-                  label: Canonical Link,
-                  name: canonicalLink,
-                  widget: string,
-                  required: false,
-                }
-              - {
-                  label: Noindex,
-                  name: noindex,
-                  widget: boolean,
-                  required: false,
-                }
-
       - file: 'content/pages/blog.md'
         label: 'Δουλειές'
         name: 'blog-page'
@@ -209,21 +152,23 @@ collections: # A list of collections the CMS should be able to edit
               default: ContactPage,
             }
           - { label: Slug, name: slug, widget: hidden, default: 'contact' }
-          - { label: Title, name: title, widget: string }
-          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Τιτλος, name: title, widget: string }
+          - { label: Υποτιτλος, name: subtitle, widget: string }
           - {
-              label: Featured Image,
-              name: featuredImage,
+              label: Εικονα,
+              name: heroImage,
               widget: image,
               options:
                 { media_library: { config: { imageShrink: 2600x2600 } } },
             }
+          - { label: Τηλεφωνο, name: phone, widget: string }
+          - { label: Instagram, name: instagram, widget: string }
+          - { label: Facebook, name: facebook, widget: string }
+          - { label: Διευθυνση, name: address, widget: text }
+          - { label: Email, name: email, widget: string }
           - { label: Body, name: body, widget: markdown }
-          - { label: Address, name: address, widget: text }
-          - { label: Phone, name: phone, widget: string }
-          - { label: Email Address, name: email, widget: string }
           - name: locations
-            label: locations
+            label: Τοποθεσιες
             widget: list
             fields:
               - {

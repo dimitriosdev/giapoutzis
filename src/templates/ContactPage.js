@@ -1,21 +1,18 @@
 import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
+import { MapPin, Smartphone, Mail, Instagram, Facebook } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
-import FormSimpleAjax from '../components/FormSimpleAjax'
-import Content from '../components/Content'
+//import FormSimpleAjax from '../components/FormSimpleAjax'
 // import GoogleMap from '../components/GoogleMap'
 import Layout from '../components/Layout'
 import './ContactPage.css'
 
 // Export Template for use in CMS preview
 export const ContactPageTemplate = ({
-  body,
   title,
   subtitle,
-  featuredImage,
-  heroVideo,
+  heroImage,
   address,
   phone,
   email,
@@ -25,17 +22,34 @@ export const ContactPageTemplate = ({
     <PageHeader
       title={title}
       subtitle={subtitle}
-      heroVideo={heroVideo}
+      heroImage={heroImage}
     />
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
         <div>
-          <Content source={body} />
+          <h4>Στοιχεία επικοινωνίας</h4>
           <div className="Contact--Details">
+            {phone && (
+              <a className="Contact--Details--Item" href={`tel:${phone}`}>
+                <Smartphone /> {phone}
+              </a>
+            )}
+              <a className="Contact--Details--Item" href={`https://www.instagram.com/giapoutzis_t/`}>
+                <Instagram /> giapoutzis_t
+              </a>
+              <a className="Contact--Details--Item" href={`https://www.facebook.com/tolisgiap1`}>
+                <Facebook /> tolisgiap1
+              </a>
+            
+            {email && (
+              <a className="Contact--Details--Item" href={`mailto:${email}`}>
+                <Mail /> {email}
+              </a>
+            )}
             {address && (
               <a
                 className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
+                href={`https://www.google.gr/maps/search/${encodeURI(
                   address
                 )}`}
                 target="_blank"
@@ -44,22 +58,14 @@ export const ContactPageTemplate = ({
                 <MapPin /> {address}
               </a>
             )}
-            {phone && (
-              <a className="Contact--Details--Item" href={`tel:${phone}`}>
-                <Smartphone /> {phone}
-              </a>
-            )}
-            {email && (
-              <a className="Contact--Details--Item" href={`mailto:${email}`}>
-                <Mail /> {email}
-              </a>
-            )}
+            
           </div>
         </div>
 
-        <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
-        </div>
+        {/* <div>
+        <h4>Φόρμα επικοινωνίας</h4>
+          <FormSimpleAjax name="Contact" />
+        </div> */}
       </div>
     </section>
 
@@ -87,8 +93,10 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        featuredImage
+        heroImage
         heroVideo
+        instagram
+        facebook
         address
         phone
         email

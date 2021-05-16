@@ -7,7 +7,7 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
+    name: 'Contact',
     subject: 'Μήνυμα από xilinapatomata.gr', // optional subject of the notification email
     action: '',
     successMessage: 'Λάβαμε το μήνυμά σας, ευχαριστούμε',
@@ -27,8 +27,10 @@ class Form extends React.Component {
     const form = e.target
     const data = serialize(form)
     this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
+    fetch(form.action, {
+      method: 'POST',
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: stringify(data)
     })
       .then(res => {
         if (res.ok) {
@@ -55,7 +57,7 @@ class Form extends React.Component {
 
 
   render() {
-    const { name, subject, action } = this.props
+    const { name, subject } = this.props
 
     return (
       <Fragment>
@@ -65,24 +67,44 @@ class Form extends React.Component {
         <form
           className="Form"
           name={name}
-          action={action}
+          method="post"
           onSubmit={this.handleSubmit}
-          data-netlify=""
+          data-netlify="true"
           netlify-recaptcha=""
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
           )}
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Όνπμα"
+              name="name"
+              required
+            />
+            <span>Όνομα</span>
+          </label>
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="email"
+              placeholder="Email"
+              name="emailAddress"
+              required
+            />
+            <span>Email</span>
+          </label>
           <div className="Form--Label">Τι είδους εργασία χρειάζεσαι;</div>
           <label className="Form--Label has-arrow">
             <select
               className="Form--Input Form--Select"
               name="type"
-              defaultValue="Εγκατάσταση / Αντικατάσταση"
+              defaultValue="Τοποθέτηση"
               required
             >
-              <option>Εγκατάσταση / Αντικατάσταση</option>
-              <option>Συντήρηση / Επισκευή</option>
+              <option value='Τοποθέτηση'>Τοποθέτηση</option>
+              <option value='Συντήρηση'>Συντήρηση / Επισκευή</option>
             </select>
           </label>
           <div className="Form--Label">Με τι είδους δάπεδο θα γίνει η εργασία;</div>
@@ -93,10 +115,10 @@ class Form extends React.Component {
               defaultValue="Δάπεδο τύπου Laminate"
               required
             >
-              <option>Ξύλινο δάπεδο μασίφ ή προγυαλισμένο</option>
-              <option>Δάπεδο τύπου Laminate</option>
-              <option>Βιομηχανικό/Σταμπωτό δάπεδο</option>
-              <option>Deck εξωτερικού χώρου</option>
+              <option value='Ξύλινο δάπεδο'>Ξύλινο δάπεδο μασίφ ή προγυαλισμένο</option>
+              <option value='Laminate'>Δάπεδο τύπου Laminate</option>
+              <option value=''>Βιομηχανικό/Σταμπωτό δάπεδο</option>
+              <option value='Deck'>Deck εξωτερικού χώρου</option>
             </select>
           </label>
           <div className="Form--Label">Πόσα τετραγωνικά είναι οι επιφάνειες που θα γίνουν οι εργασίες;</div>
@@ -123,26 +145,17 @@ class Form extends React.Component {
               required
             >
 
-              <option>Άμεσα</option>
-              <option>Μέσα στις επόμενες 10 ημέρες</option>
-              <option>Μέσα στις επόμενες 30 ημέρες</option>
-              <option>Δεν έχω συγκεκριμένο χρονικό προγραμματισμό</option>
+              <option value="Άμεσα">Άμεσα</option>
+              <option value="Σε 10 μέρες">Μέσα στις επόμενες 10 ημέρες</option>
+              <option value="Σε 1 μήνα">Μέσα στις επόμενες 30 ημέρες</option>
+              <option value="Δεν ξέρω">Δεν έχω συγκεκριμένο χρονικό προγραμματισμό</option>
             </select>
           </label>
-          <label className="Form--Label">
-            <input
-              className="Form--Input Form--InputText"
-              type="email"
-              placeholder="Email"
-              name="emailAddress"
-              required
-            />
-            <span>Email</span>
-          </label>
+          
           <label className="Form--Label Form-Checkbox">
             <input
-              className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
+              className="Form--Input Form--CheckboxInput"
+              name="acceptTerms"
               type="checkbox"
             />
             <span>Αποδέχομαι τους Όρους και Προϋποθέσεις</span>

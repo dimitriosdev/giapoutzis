@@ -224,7 +224,7 @@ blockquote {
   flex-shrink: 0;
 }
 
-@media screen and (min-width: 1264px) {
+/* @media screen and (min-width: 1264px) {
   .row {
     margin-left: -12px;
     margin-right: -12px;
@@ -232,7 +232,7 @@ blockquote {
   .column {
     flex-basis: 100%;
   }
-}
+} */
 
 /* Buttons */
 

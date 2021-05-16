@@ -3,12 +3,14 @@ import PropTypes from 'prop-types'
 
 import Content from './Content'
 import BackgroundVideo from '../components/BackgroundVideo'
+import Image from './Image'
 import './PageHeader.css'
 
 const PageHeader = ({
   title,
   subtitle,
   heroVideo,
+  heroImage,
   large,
   className = ''
 }) => {
@@ -17,10 +19,14 @@ const PageHeader = ({
   const custClass = (large) ? '' : 'unsetHeight'
   return (
     <div className={`PageHeader relative ${className}`}>
-
-      <BackgroundVideo poster='' videoTitle='' customClassName={custClass}>
+      {heroVideo && (
+        <BackgroundVideo poster='' videoTitle='' customClassName={custClass}>
         {heroVideo && <source src={heroVideo} type="video/mp4" />}
       </BackgroundVideo>
+      )}
+      {heroImage && (
+        <Image background src={heroImage} alt={title} size="cover" />
+      )}
       <div className="PageHeader__content container relative">
         <h1 className="PageHeader--Title">{title}</h1>
         {subtitle && (
@@ -34,7 +40,8 @@ const PageHeader = ({
 PageHeader.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  heroVideo: PropTypes.string
+  heroVideo: PropTypes.string,
+  heroImage: PropTypes.string
 }
 
 export default PageHeader
