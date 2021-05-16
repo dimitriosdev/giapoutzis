@@ -33,9 +33,9 @@
   line-height: 1.5;
 }
 
-@media print, screen and (min-width: 48em) {
+@media print, screen and (min-width: 768px) {
   .stats__col-12 {
-    max-width: 50%;
-    flex-basis: 50%;
+    max-width: 50% !important;
+    flex-basis: 50% !important;
   }
 }

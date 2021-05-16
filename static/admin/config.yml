@@ -9,7 +9,7 @@ media_library:
   config:
     publicKey: 2696f9ae94b0cdfe15fc
     multiple: false
-    tabs: 'file facebook'
+    tabs: 'facebook file'
     effects: 'crop,rotate,enhance,grayscale'
     imageShrink: '2000x2000'
     previewStep: true
@@ -33,43 +33,58 @@ collections: # A list of collections the CMS should be able to edit
               default: HomePage,
             }
           - { label: Slug, name: slug, widget: hidden, default: '' }
-          - { label: Τίτλος, name: heroTitle, widget: string, required: true }
+          - { label: Τιτλος, name: heroTitle, widget: string, required: true }
           - {
-              label: Υπότιτλος,
+              label: Υποτιτλος,
               name: heroSubtitle,
               widget: string,
               required: true,
             }
-          - { label: Εισαγωγικός τίτλος, name: introTitle, widget: string }
-          - { label: Εισαγωγικό κείμενο, name: introSubtitle, widget: markdown }
-          - { label: Υπηρεσίες τίτλος, name: accordionTitle, widget: string }
-          - label: 'Υπηρεσίες'
-            name: 'accordion'
+          - { label: Εισαγωγικος τιτλος, name: introTitle, widget: string }
+          - { label: Εισαγωγικο κειμενο, name: introSubtitle, widget: markdown }
+          - label: 'Στατιστικά'
+            name: 'intro'
             widget: 'list'
             fields:
-              - { name: title, label: Υπηρεσία, widget: string, default: '' }
-              - {
-                  name: description,
-                  label: Περιγραφή υπηρεσίας,
-                  widget: markdown,
-                }
-          - { label: Φωτογραφίες τίτλος, name: galleryTitle, widget: string }
-          - label: 'Φωτογραφίες'
+              - { name: title, label: Νουμερο, widget: string, default: '' }
+              - { name: description, label: Κειμενο, widget: string }
+          - { label: Φωτογραφιες τιτλος, name: galleryTitle, widget: string }
+          - label: 'Φωτογραφιες'
             name: 'gallery'
             widget: 'list'
             fields:
-              - { name: image, label: Image, widget: image }
-              - { name: alt, label: Alt, widget: string }
-              - { name: title, label: Title, widget: string, required: false }
+              - { name: image, label: Εικονα, widget: image }
+              - {
+                  name: title,
+                  label: Τιτλος εικονας,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: alt,
+                  label: Εναλλακτικο κειμενο εικονας,
+                  widget: string,
+                }
+          - { label: Υπηρεσιες τιτλος, name: accordionTitle, widget: string }
+          - label: 'Υπηρεσιες'
+            name: 'accordion'
+            widget: 'list'
+            fields:
+              - { name: title, label: Υπηρεσια, widget: string, default: '' }
+              - {
+                  name: description,
+                  label: Περιγραφη υπηρεσιας,
+                  widget: markdown,
+                }
           - { label: Body, name: body, widget: markdown }
           - label: 'Meta'
             required: false
             name: 'meta'
             widget: 'object'
             fields:
-              - { label: Title, name: title, widget: string, required: false }
+              - { label: Τιτλος, name: title, widget: string, required: false }
               - {
-                  label: Description,
+                  label: Περιγραφη,
                   name: description,
                   widget: text,
                   required: false,

@@ -1,7 +1,7 @@
 ---
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1621087072/intro-vid_maxhv6_awoz4a.webm
 template: HomePage
-slug: ""
+slug: ''
 heroTitle: Ξύλινα πατώματα
 heroSubtitle: Γιαπουτζής Αποστόλης
 introTitle: Τοποθέτηση ξύλινων δαπέδων
@@ -9,6 +9,15 @@ introSubtitle: >-
   Είμαστε ειδικοί στην τοποθέτηση ξύλινου πατώματος.
 
   Αναλαμβάνουμε την τοποθέτηση ξύλινων δαπέδων, πατωμάτων laminate, δαπέδων εξωτερικού χώρου - deck σε όλη την Ελλάδα.
+intro:
+  - description: Έτος ίδρυσης
+    title: '2001'
+  - description: Πελάτες
+    title: 500+
+  - description: Ποιότητα εργασίας
+    title: 100%
+  - description: ''
+    title: ''
 accordionTitle: Υπηρεσίες
 accordion:
   - description: |-
@@ -47,15 +56,6 @@ meta:
   description: Τοποθέτηση πατωμάτων. Ξύλινα πατώματα, Laminate deck γρήγορα,
     οικονομικά, ποιοτικά.
   title: Ξύλινα πατώματα - Αποστόλης Γιαπουτζής
-intro:
-  - description: Έτος ίδρυσης
-    title: "2001"
-  - description: Πελάτες
-    title: 500+
-  - description: Ποιότητα εργασίας
-    title: 100%
-  - description: ""
-    title: ""
 ---
 
 #### Γιατί να επιλέξω ξύλινο πάτωμα;
@@ -64,4 +64,4 @@ intro:
 
 #### Πόσο θα μου κοστίσει η τοποθέτηση ξύλινου δαπέδου;
 
-Επικοινωνήστε μαζί μας για περισσότερες πληροφοριες.
+[Επικοινωνήστε μαζί μας για περισσότερες πληροφοριες.](/contact)
