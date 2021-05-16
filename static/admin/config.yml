@@ -33,16 +33,16 @@ collections: # A list of collections the CMS should be able to edit
               default: HomePage,
             }
           - { label: Slug, name: slug, widget: hidden, default: '' }
-          - { label: Title, name: title, widget: string }
-          - { label: Subtitle, name: subtitle, widget: string, required: false }
-          - { label: Hero Video, name: heroVideo, widget: file }
-          - { label: Hero Title, name: statTitle, widget: string }
-          - { label: Hero Subtitle, name: statSubtitle, widget: string }
-          - { label: Hero Year, name: statYear, widget: string }
-          - { label: Hero Year Text, name: statYearText, widget: string }
-          - { label: Hero Clients, name: statClients, widget: string }
-          - { label: Hero Clients Text, name: statClientsText, widget: string }
-          - { label: Youtube, name: youtubeSection, widget: string }
+          - { label: Title, name: heroTitle, widget: string, required: true }
+          - {
+              label: Subtitle,
+              name: heroSubtitle,
+              widget: string,
+              required: true,
+            }
+          - { label: Video, name: heroVideo, widget: file, required: true }
+          - { label: Intro title, name: introTitle, widget: string }
+          - { label: Intro text, name: introSubtitle, widget: string }
           - { label: Body, name: body, widget: markdown }
           - label: 'Meta'
             required: false
@@ -240,7 +240,6 @@ collections: # A list of collections the CMS should be able to edit
                   widget: boolean,
                   required: false,
                 }
-
 
   - name: infoPages
     label: Info Page
