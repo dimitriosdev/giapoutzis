@@ -2,18 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './Stats.css'
 
+import Content from '../components/Content'
+
 const Stats = ({
-    statOne,
-    statOneText,
-    statTwo,
-    statTwoText,
-    statThree,
-    statThreeText,
-    statFour,
-    statFourText,
     statTitle,
-    statSubtitle
+    statSubtitle,
+    statIntro,
   }) => {
+    
     return (
         <section className="section">
             <div className='container section__stats'>
@@ -22,22 +18,22 @@ const Stats = ({
                         <div className='snippet-list'>
                             <div className='row'>
                                 <div className='column stats__col-6'>
-                                    <h4>{statOne}</h4>
-                                    <p>{statOneText}</p>
+                                    <h4>{statIntro && statIntro[0].title}</h4>
+                                    <p>{statIntro && statIntro[0].description}</p>
                                 </div>
                                 <div className='column stats__col-6'>
-                                <h4>{statTwo}</h4>
-                                    <p>{statTwoText}</p>
+                                <h4>{statIntro && statIntro[1].title}</h4>
+                                    <p>{statIntro && statIntro[1].description}</p>
                                 </div>
                             </div>
                             <div className='row'>
                                 <div className='column stats__col-6'>
-                                    <h4>{statThree}</h4>
-                                    <p>{statThreeText}</p>
+                                    <h4>{statIntro && statIntro[2].title}</h4>
+                                    <p>{statIntro && statIntro[2].description}</p>
                                 </div>
                                 <div className='column stats__col-6'>
-                                <h4>{statFour}</h4>
-                                    <p>{statFourText}</p>
+                                <h4>{statIntro && statIntro[3].title}</h4>
+                                    <p>{statIntro && statIntro[3].description}</p>
                                 </div>
                             </div>
                         </div>
@@ -45,21 +41,17 @@ const Stats = ({
                     <div className='column stats__col-12'>
                         <div className='text-block'>
                             <h2>{statTitle}</h2>
-                            <p>{statSubtitle}</p>
+                            <Content source={statSubtitle} />
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     )
 }
 
 Stats.propTypes = {
-    statYearText: PropTypes.string,
-    statYear: PropTypes.string,
-    statClientsText: PropTypes.string,
-    statClients: PropTypes.string,
+    statIntro: PropTypes.array,
     statTitle: PropTypes.string,
     statSubtitle: PropTypes.string
   }

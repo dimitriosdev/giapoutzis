@@ -110,7 +110,11 @@ export default class Gallery extends Component {
             items={this.state.sliderImages}
             options={{
               index: this.state.index,
-              history: false
+              history: false,
+              shareEl: true,
+              shareButtons: [
+                {id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u=https://www.xilinapatomata.gr'},
+            ],
             }}
             onClose={() => this.isOpen(false)}
           />

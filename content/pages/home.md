@@ -1,19 +1,22 @@
 ---
 template: HomePage
 slug: ''
-title: Ξύλινα πατώματα
-subtitle: 'Γιαπουτζής Αποστόλης'
+heroTitle: Ξύλινα πατώματα
+heroSubtitle: 'Γιαπουτζής Αποστόλης'
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1621087072/intro-vid_maxhv6_awoz4a.webm
-statTitle: 'Τοποθέτηση ξύλινων δαπέδων'
-statSubtitle: 'Είμαστε ειδικοί στην τοποθέτηση ξύλινου πατώματος. Αναλαμβάνουμε την τοποθέτηση ξύλινων δαπέδων, πατωμάτων laminate, δαπέδων εξωτερικού χώρου - deck σε όλη την Ελλάδα. Στόχος μας σε κάθε έργο είναι ο πελάτης να αισθάνεται απόλυτη ικανοποίηση με το τελικό αποτέλεσμα και την επιλογή του.'
-statOne: '2001'
-statOneText: 'Έτος ίδρυσης'
-statTwo: '500+'
-statTwoText: 'Πελάτες'
-statThree: '100%'
-statThreeText: 'Eγγύηση ικανοποίησης'
-statFour: ''
-statFourText: ''
+introTitle: 'Τοποθέτηση ξύλινων δαπέδων'
+introSubtitle:
+  'Είμαστε ειδικοί στην τοποθέτηση ξύλινου πατώματος. Αναλαμβάνουμε την τοποθέτηση ξύλινων δαπέδων, πατωμάτων laminate, δαπέδων εξωτερικού χώρου - deck σε όλη την Ελλάδα.
+  Στόχος μας σε κάθε έργο είναι ο πελάτης να αισθάνεται απόλυτη ικανοποίηση με το τελικό αποτέλεσμα και την επιλογή του.'
+intro:
+  - description: 'Έτος ίδρυσης'
+    title: '2001'
+  - description: 'Πελάτες'
+    title: '500+'
+  - description: 'Εγγύηση ικανοποίησης'
+    title: '100%'
+  - description: ''
+    title: ''
 galleryTitle: 'Ενδεικτικά project'
 gallery:
   - alt: Κέρκυρα
@@ -25,14 +28,25 @@ gallery:
   - alt: Αγιος Δημήτριος
     image: https://ucarecdn.com/e6d25326-9ff0-4a11-b708-57a2cb4e693f/
     title: Αγ. Δημήτριος
+  - alt: Κέρκυρα
+    image: https://ucarecdn.com/c21c6304-cb65-4c87-9da0-605e1489d8ba/
+    title: Κέρκυρα
+  - alt: Λυκαβηττός
+    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
+    title: Λυκαβηττός
+  - alt: Αγιος Δημήτριος
+    image: https://ucarecdn.com/e6d25326-9ff0-4a11-b708-57a2cb4e693f/
+    title: Αγ. Δημήτριος
 accordionTitle: Υπηρεσίες
 accordion:
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Γιατί να επιλέξω ξύλινο πάτωμα;
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Τι είδος ξύλου να επιλέξω για το πάτωμά μου;
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Πόσο θα μου κοστίσει η τοποθέτηση ξύλινου δαπέδου;
+  - description: Ξύλινων δαπέδων – Πατωμάτων παρκέ - Laminate - Προγυαλισμένων πατωμάτων - Deck πατώματος εξωτερικού χώρου
+    title: Τοποθέτηση
+  - description: Επένδυση με ξύλο σε σκάλα
+    title: Επένδυση
+  - description: Τρίψιμο και γυάλισμα ξύλινου πατώματος παρκέ
+    title: Συντήρηση
+  - description: Επισκευή ξύλινων πατωμάτων παρκέ
+    title: Επισκευή
 meta:
   description: Τοποθέτηση πατωμάτων. Ξύλινα πατώματα, Laminate deck γρήγορα, οικονομικά, ποιοτικά.
   title: Ξύλινα πατώματα - Αποστόλης Γιαπουτζής

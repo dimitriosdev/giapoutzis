@@ -10,19 +10,12 @@ import Layout from '../components/Layout'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
-  title,
-  subtitle,
+  heroTitle,
+  heroSubtitle,
   heroVideo,
-  statTitle,
-  statSubtitle,
-  statOne,
-  statOneText,
-  statTwo,
-  statTwoText,
-  statThree,
-  statThreeText,
-  statFour,
-  statFourText,
+  introTitle,
+  introSubtitle,
+  intro,
   galleryTitle,
   gallery,
   accordionTitle,
@@ -33,25 +26,18 @@ export const HomePageTemplate = ({
   <main className="Home">
     <PageHeader
       large
-      title={title}
-      subtitle={subtitle}
+      title={heroTitle}
+      subtitle={heroSubtitle}
       heroVideo={heroVideo}
     />
     <Stats
-      statOne={statOne}
-      statOneText={statOneText}
-      statTwo={statTwo}
-      statTwoText={statTwoText}
-      statThree={statThree}
-      statThreeText={statThreeText}
-      statFour={statFour}
-      statFourText={statFourText}
-      statTitle={statTitle}
-      statSubtitle={statSubtitle}>
+      statTitle={introTitle}
+      statSubtitle={introSubtitle}
+      statIntro={intro}>
     </Stats>
     <section className="section">
       <div className="container">
-        <h3>{galleryTitle}</h3>
+        <h3 className='p-b-20'>{galleryTitle}</h3>
         <Gallery images={gallery} />
         <div className='flexCenter m-t-b-10'>
           <a href='/blog'>Δείτε περισσότερες δουλείες μας</a>
@@ -60,12 +46,13 @@ export const HomePageTemplate = ({
     </section>
     <section className="section">
       <div className="container">
-      <h3>{accordionTitle}</h3>
+      <h3 className='p-b-20'>{accordionTitle}</h3>
         <Accordion items={accordion} />
       </div>
     </section>
     <section className="section">
       <div className="container">
+        <h3 className='p-b-20'>Συχνές ερωτήσεις</h3>
         <Content source={body} />
       </div>
     </section>
@@ -92,19 +79,15 @@ export const pageQuery = graphql`
       ...Gallery
       html
       frontmatter {
-        title
-        subtitle
+        heroTitle
+        heroSubtitle
         heroVideo
-        statTitle
-        statSubtitle
-        statOne
-        statOneText
-        statTwo
-        statTwoText
-        statThree
-        statThreeText
-        statFour
-        statFourText
+        intro {
+          title
+          description
+        }
+        introTitle
+        introSubtitle
         galleryTitle
         accordionTitle
         accordion {
