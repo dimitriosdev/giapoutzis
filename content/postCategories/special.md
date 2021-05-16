@@ -2,6 +2,6 @@
 template: BlogIndex
 title: Ειδικές κατασκευές
 subtitle: ''
-featuredImage: >-
-  https://ucarecdn.com/db0b1431-8739-426f-970d-8a80eacf02ef/-/preview/-/rotate/270/
+heroImage: >-
+  https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/
 ---

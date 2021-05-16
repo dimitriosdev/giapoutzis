@@ -2,8 +2,8 @@
 template: BlogIndex
 slug: projects
 title: Οι δουλειές μας
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1611525654/part1_her6gs.mp4
+heroImage: >-
+  https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/
 subtitle: Δείγματα από πρόσφατα projects
 meta:
   description: Ξύλινα πατώματα - Δείγματα δουλειάς

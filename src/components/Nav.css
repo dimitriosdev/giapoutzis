@@ -88,8 +88,8 @@
   position: absolute;
   top: calc(50% - 0.2rem);
   right: 1rem;
-  border-bottom: 2px solid var(--lightGrey);
-  border-right: 2px solid var(--lightGrey);
+  border-bottom: 2px solid var(--darkGrey);
+  border-right: 2px solid var(--darkGrey);
   display: block;
   height: 0.8rem;
   width: 0.8rem;
