@@ -9,7 +9,7 @@ media_library:
   config:
     publicKey: 2696f9ae94b0cdfe15fc
     multiple: false
-    tabs: 'file camera url facebook gdrive'
+    tabs: 'file facebook'
     effects: 'crop,rotate,enhance,grayscale'
     imageShrink: '2000x2000'
     previewStep: true
@@ -33,16 +33,34 @@ collections: # A list of collections the CMS should be able to edit
               default: HomePage,
             }
           - { label: Slug, name: slug, widget: hidden, default: '' }
-          - { label: Title, name: heroTitle, widget: string, required: true }
+          - { label: Τίτλος, name: heroTitle, widget: string, required: true }
           - {
-              label: Subtitle,
+              label: Υπότιτλος,
               name: heroSubtitle,
               widget: string,
               required: true,
             }
-          - { label: Video, name: heroVideo, widget: file, required: true }
-          - { label: Intro title, name: introTitle, widget: string }
-          - { label: Intro text, name: introSubtitle, widget: string }
+          - { label: Εισαγωγικός τίτλος, name: introTitle, widget: string }
+          - { label: Εισαγωγικό κείμενο, name: introSubtitle, widget: markdown }
+          - { label: Υπηρεσίες τίτλος, name: accordionTitle, widget: string }
+          - label: 'Υπηρεσίες'
+            name: 'accordion'
+            widget: 'list'
+            fields:
+              - { name: title, label: Υπηρεσία, widget: string, default: '' }
+              - {
+                  name: description,
+                  label: Περιγραφή υπηρεσίας,
+                  widget: markdown,
+                }
+          - { label: Φωτογραφίες τίτλος, name: galleryTitle, widget: string }
+          - label: 'Φωτογραφίες'
+            name: 'gallery'
+            widget: 'list'
+            fields:
+              - { name: image, label: Image, widget: image }
+              - { name: alt, label: Alt, widget: string }
+              - { name: title, label: Title, widget: string, required: false }
           - { label: Body, name: body, widget: markdown }
           - label: 'Meta'
             required: false

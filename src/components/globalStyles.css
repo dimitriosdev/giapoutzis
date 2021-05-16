@@ -230,7 +230,7 @@ blockquote {
     margin-right: -12px;
   }
   .column {
-    flex-basis: unset;
+    flex-basis: 100%;
   }
 }
 
