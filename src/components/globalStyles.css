@@ -224,9 +224,20 @@ blockquote {
   flex-shrink: 0;
 }
 
+.column-basis-0 {
+  position: relative;
+  max-width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
 @media screen and (max-width: 600px) {
   .column {
     flex-basis: 100%;
+  }
+  .column-basis-0 {
+    flex-basis: 0;
   }
 }
 /* @media screen and (min-width: 1264px) {
