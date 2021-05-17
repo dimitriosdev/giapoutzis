@@ -6,10 +6,12 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
+import Gallery from '../components/Gallery'
 
 export const SinglePostTemplate = ({
   title,
   date,
+  gallery,
   body,
   nextPostURL,
   prevPostURL,
@@ -23,7 +25,7 @@ export const SinglePostTemplate = ({
     >
       <div className="container skinny">
         <Link className="SinglePost--BackButton" to="/projects/">
-          <ChevronLeft /> Επιστροφή
+          <ChevronLeft /> 
         </Link>
         <div className="SinglePost--Content relative">
           <div className="SinglePost--Meta">
@@ -54,16 +56,19 @@ export const SinglePostTemplate = ({
           </div>
 
           {title && (
-            <h1 className="SinglePost--Title" itemProp="title">
+            <h2 className="SinglePost--Title" itemProp="title">
               {title}
-            </h1>
+            </h2>
           )}
-
+          {gallery && (
+            <Gallery images={gallery}/>
+          )}
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
+          
 
-          <div className="SinglePost--Pagination">
+          {/* <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link
                 className="SinglePost--Pagination--Link prev"
@@ -80,7 +85,7 @@ export const SinglePostTemplate = ({
                 Επομενο
               </Link>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </article>
@@ -116,6 +121,7 @@ export const pageQuery = graphql`
   query SinglePost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...Gallery
       html
       id
       frontmatter {

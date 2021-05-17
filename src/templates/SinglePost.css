@@ -10,6 +10,8 @@
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  top: -10px;
 }
 
 .SinglePost--BackButton svg {

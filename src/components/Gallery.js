@@ -112,6 +112,8 @@ export default class Gallery extends Component {
               index: this.state.index,
               history: false,
               shareEl: true,
+              fullscreenEl: false,
+              zoomEl: false,
               shareButtons: [
                 {id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u=https://www.xilinapatomata.gr'},
             ],

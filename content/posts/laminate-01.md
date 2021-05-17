@@ -5,10 +5,16 @@ status: Featured / Published
 date: '2018-03-27'
 featuredImage: 'https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/'
 excerpt: >-
-  Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
-  interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus
-  est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
-  pellentesque, lacinia risus ut, imperdiet eros.
+gallery:
+  - alt: Κέρκυρα
+    image: https://ucarecdn.com/c21c6304-cb65-4c87-9da0-605e1489d8ba/
+    title:
+  - alt: Λυκαβηττός
+    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
+    title:
+  - alt: Αγιος Δημήτριος
+    image: https://ucarecdn.com/e6d25326-9ff0-4a11-b708-57a2cb4e693f/
+    title:
 categories:
   - category: Laminate
 meta:
@@ -17,42 +23,3 @@ meta:
   noindex: false
   title: test meta title
 ---
-
-Paragraphs are separated by a blank line.
-
-![Test Image](https://ucarecdn.com/ac9898a0-413a-467b-95fa-0a9959c30710/)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Id64silK_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
-
-### Unordered lists:
-
-- this one
-- that one
-- the other one
-
-### Ordered lists:
-
-1. first item
-2. second item
-3. third item
-
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-## Heading 2
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
