@@ -38,7 +38,7 @@ collections: # A list of collections the CMS should be able to edit
               label: Υποτιτλος,
               name: heroSubtitle,
               widget: string,
-              required: true,
+              required: false,
             }
           - { label: Εισαγωγικος τιτλος, name: introTitle, widget: string }
           - { label: Εισαγωγικο κειμενο, name: introSubtitle, widget: markdown }
@@ -46,8 +46,19 @@ collections: # A list of collections the CMS should be able to edit
             name: 'intro'
             widget: 'list'
             fields:
-              - { name: title, label: Νουμερο, widget: string, default: '' }
-              - { name: description, label: Κειμενο, widget: string }
+              - {
+                  name: title,
+                  label: Νουμερο,
+                  widget: string,
+                  default: '',
+                  required: false,
+                }
+              - {
+                  name: description,
+                  label: Κειμενο,
+                  widget: string,
+                  required: false,
+                }
           - { label: Φωτογραφιες τιτλος, name: galleryTitle, widget: string }
           - label: 'Φωτογραφιες'
             name: 'gallery'
