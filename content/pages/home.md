@@ -1,7 +1,7 @@
 ---
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1621087072/intro-vid_maxhv6_awoz4a.webm
 template: HomePage
-slug: ''
+slug: ""
 heroTitle: ΞΥΛΙΝΑ ΠΑΤΩΜΑΤΑ
 heroSubtitle: ΓΙΑΠΟΥΤΖΗΣ
 introTitle: Τοποθέτηση ξύλινων δαπέδων
@@ -11,13 +11,33 @@ introSubtitle: >-
   Αναλαμβάνουμε την τοποθέτηση ξύλινων δαπέδων, πατωμάτων laminate, δαπέδων εξωτερικού χώρου - deck σε όλη την Ελλάδα.
 intro:
   - description: Έτος ίδρυσης
-    title: '2001'
+    title: "2001"
   - description: Πελάτες
     title: 500+
   - description: Ποιότητα εργασίας
     title: 100%
-  - description: ''
-    title: ''
+  - description: .
+    title: .
+galleryTitle: Ενδεικτικά project
+gallery:
+  - alt: Μύκονος
+    image: https://ucarecdn.com/3f82770f-ab1f-465a-a2f8-f00e33946360/
+    title: Μύκονος
+  - alt: Μύκονος
+    image: https://ucarecdn.com/7031e985-e819-4184-9445-7c1fe0d67c77/
+    title: Μύκονος
+  - alt: Μύκονος Cavi Tagoo
+    image: https://ucarecdn.com/0dab8fc4-cb21-471f-b495-2c119173a4f1/
+    title: Μύκονος Cavi Tagoo
+  - alt: Γαλατάς
+    image: https://ucarecdn.com/c2b5718f-9a16-4999-8539-717afedfd820/
+    title: Γαλατάς
+  - alt: Λυκαβηττός
+    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
+    title: Λυκαβηττός
+  - image: https://ucarecdn.com/fb434f37-4055-47ed-84d6-7e43e6fef113/
+    alt: Κέρκυρα
+    title: Κέρκυρα
 accordionTitle: Υπηρεσίες
 accordion:
   - description: |-
@@ -33,25 +53,6 @@ accordion:
     title: Συντήρηση
   - description: Επισκευή ξύλινων πατωμάτων παρκέ
     title: Επισκευή
-galleryTitle: Ενδεικτικά project
-gallery:
-  - alt: Κέρκυρα
-    image: https://ucarecdn.com/c21c6304-cb65-4c87-9da0-605e1489d8ba/
-    title: Κέρκυρα
-  - alt: Λυκαβηττός
-    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
-    title: Λυκαβηττός
-  - alt: Αγιος Δημήτριος
-    image: https://ucarecdn.com/e6d25326-9ff0-4a11-b708-57a2cb4e693f/
-    title: Αγ. Δημήτριος
-  - alt: Κέρκυρα
-    image: https://ucarecdn.com/c21c6304-cb65-4c87-9da0-605e1489d8ba/
-    title: Κέρκυρα
-  - alt: Λυκαβηττός
-    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
-    title: Λυκαβηττός
-  - image: https://ucarecdn.com/7a776b4b-c75b-4847-9dc3-2e2d2ee7bf67/
-    alt: Thailand
 meta:
   description: Τοποθέτηση πατωμάτων. Ξύλινα πατώματα, Laminate deck γρήγορα,
     οικονομικά, ποιοτικά.
