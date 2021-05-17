@@ -25,7 +25,7 @@ const PageHeader = ({
       </BackgroundVideo>
       )}
       {heroImage && (
-        <Image background src={heroImage} alt={title} size="cover" />
+        <Image background src={heroImage} alt={title} size="cover" lazy={false} />
       )}
       <div className="PageHeader__content container relative">
         <h1 className="PageHeader--Title">{title}</h1>
