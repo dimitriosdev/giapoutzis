@@ -20,20 +20,20 @@ intro:
     title: .
 galleryTitle: Ενδεικτικά project
 gallery:
-  - alt: Μύκονος
+  - alt: Σπέτσες
     image: https://ucarecdn.com/3f82770f-ab1f-465a-a2f8-f00e33946360/
-    title: Μύκονος
+    title: Σπέτσες
   - alt: Μύκονος
     image: https://ucarecdn.com/7031e985-e819-4184-9445-7c1fe0d67c77/
     title: Μύκονος
-  - alt: Μύκονος Cavi Tagoo
+  - alt: Μύκονος
     image: https://ucarecdn.com/0dab8fc4-cb21-471f-b495-2c119173a4f1/
-    title: Μύκονος Cavi Tagoo
+    title: Μύκονος
   - alt: Γαλατάς
     image: https://ucarecdn.com/c2b5718f-9a16-4999-8539-717afedfd820/
     title: Γαλατάς
   - alt: Λυκαβηττός
-    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
+    image: https://ucarecdn.com/18d81984-9f27-4a00-a0d2-f1ba73d77adb/
     title: Λυκαβηττός
   - image: https://ucarecdn.com/fb434f37-4055-47ed-84d6-7e43e6fef113/
     alt: Κέρκυρα
