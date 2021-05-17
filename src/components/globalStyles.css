@@ -150,8 +150,11 @@ blockquote {
   flex-direction: column;
 }
 
-.m-t-b-10 {
-  margin-top: 10px;
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-b-10 {
   margin-bottom: 10px;
 }
 
@@ -287,4 +290,23 @@ blockquote {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.button-home {
+  margin-top: 1rem;
+  /* margin-top: 5rem; */
+  background: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 1rem 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.button-home:hover,
+.button-home:focus {
+  opacity: 0.95;
+  outline: none;
+  background: white;
+  border: 2px solid white;
+  color: black;
 }

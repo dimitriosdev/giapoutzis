@@ -39,8 +39,12 @@ export const HomePageTemplate = ({
       <div className="container">
         <h3 className='p-b-20'>{galleryTitle}</h3>
         <Gallery images={gallery} />
-        <div className='flexCenter m-t-b-10'>
-          <a href='/projects'>Δείτε περισσότερες δουλείες μας</a>
+        <div className='flexCenter m-t-40 m-b-10'>
+          <a href='/projects'>
+            <button className="button-home">
+              Δείτε περισσότερες δουλείες μας
+            </button>
+          </a>
         </div>
       </div>
     </section>
