@@ -220,7 +220,7 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
   - name: posts
-    label: Projects
+    label: Έργα
     editor:
       preview: true
     folder: content/posts
@@ -229,22 +229,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: SinglePost }
       - { label: Title, name: title, widget: string }
-      - label: 'Status'
-        name: 'status'
-        widget: 'select'
-        options: ['Published', 'Featured', 'Draft']
-        default: 'Published'
-      - label: 'Κατηγοριες'
-        name: 'categories'
-        widget: 'list'
-        required: false
-        fields:
-          - label: 'Κατηγορια'
-            name: 'category'
-            widget: 'relation'
-            collection: 'postCategories'
-            searchFields: ['title']
-            valueField: 'title'
       - {
           label: Μινι εικονα,
           name: featuredImage,
@@ -263,6 +247,22 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { name: alt, label: Εναλλακτικο κειμενο εικονας, widget: string }
+      - label: 'Κατηγοριες'
+        name: 'categories'
+        widget: 'list'
+        required: false
+        fields:
+          - label: 'Κατηγορια'
+            name: 'category'
+            widget: 'relation'
+            collection: 'postCategories'
+            searchFields: ['title']
+            valueField: 'title'
+      - label: 'Status'
+        name: 'status'
+        widget: 'select'
+        options: ['Published', 'Featured', 'Draft']
+        default: 'Published'
       - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
       - { label: Content, name: body, widget: markdown }
       - label: 'Meta'
