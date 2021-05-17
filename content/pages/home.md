@@ -2,8 +2,8 @@
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1621087072/intro-vid_maxhv6_awoz4a.webm
 template: HomePage
 slug: ''
-heroTitle: Ξύλινα πατώματα
-heroSubtitle: Γιαπουτζής Αποστόλης
+heroTitle: ΞΥΛΙΝΑ ΠΑΤΩΜΑΤΑ
+heroSubtitle: ΓΙΑΠΟΥΤΖΗΣ
 introTitle: Τοποθέτηση ξύλινων δαπέδων
 introSubtitle: >-
   Είμαστε ειδικοί στην τοποθέτηση ξύλινου πατώματος.

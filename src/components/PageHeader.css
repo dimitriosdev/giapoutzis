@@ -17,7 +17,7 @@
 }
 
 .PageHeader__content {
-  position: absolute!important;
+  position: absolute !important;
   bottom: 14%;
   left: 7%;
 }
@@ -36,7 +36,7 @@
   animation: fadeIn 0.5s ease-out;
 }
 
- @media screen and (max-width: 47.9375em) {
+@media screen and (max-width: 47.9375em) {
   .PageHeader {
     padding: 7rem 0;
   }
@@ -45,7 +45,7 @@
     left: 7%;
     padding-top: 80%;
   }
-} 
+}
 .PageHeader {
   background-color: var(--darkGrey);
   color: white;
@@ -65,28 +65,31 @@
 }
 
 .PageHeader__content {
-  position: absolute!important;
+  position: absolute !important;
   bottom: 14%;
   left: 7%;
 }
 
 .PageHeader--Title {
   font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Jura';
   text-shadow: 1px 1px 1px black;
   margin-bottom: 0;
 }
 
 .PageHeader--Subtitle {
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  font-family: 'Jura';
 }
 
 .PageHeader .container {
   animation: fadeIn 0.5s ease-out;
 }
 
- @media screen and (max-width: 47.9375em) {
-/*   .PageHeader {
+@media screen and (max-width: 47.9375em) {
+  /*   .PageHeader {
     padding: 7rem 0;
   } */
   .PageHeader__content {
@@ -94,4 +97,4 @@
     left: 7%;
     padding-top: 80%;
   }
-} 
+}
