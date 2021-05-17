@@ -306,7 +306,7 @@ blockquote {
 .button-home:focus {
   opacity: 0.95;
   outline: none;
-  background: white;
-  border: 2px solid white;
+  background: var(--primary);
+  border: 2px solid var(--primary);
   color: black;
 }

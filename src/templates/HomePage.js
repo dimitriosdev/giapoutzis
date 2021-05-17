@@ -48,7 +48,7 @@ export const HomePageTemplate = ({
         </div>
       </div>
     </section>
-    <section className="section">
+    <section id="services" className="section">
       <div className="container">
       <h3 className='p-b-20'>{accordionTitle}</h3>
         <Accordion items={accordion} />
@@ -58,6 +58,13 @@ export const HomePageTemplate = ({
       <div className="container">
         <h3 className='p-b-20'>Συχνές ερωτήσεις</h3>
         <Content source={body} />
+        <div className='flexCenter m-t-40 m-b-10'>
+          <a href='/contact'>
+            <button className="button-home">
+              Επικοινωνείστε μαζί μας
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   </main>

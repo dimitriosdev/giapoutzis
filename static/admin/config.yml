@@ -252,21 +252,17 @@ collections: # A list of collections the CMS should be able to edit
           required: true,
         }
       - label: 'Φωτογραφιες'
-            name: 'gallery'
-            widget: 'list'
-            fields:
-              - { name: image, label: Εικονα, widget: image }
-              - {
-                  name: title,
-                  label: Τιτλος εικονας,
-                  widget: string,
-                  required: false,
-                }
-              - {
-                  name: alt,
-                  label: Εναλλακτικο κειμενο εικονας,
-                  widget: string,
-                }
+        name: 'gallery'
+        widget: 'list'
+        fields:
+          - { name: image, label: Εικονα, widget: image }
+          - {
+              name: title,
+              label: Τιτλος εικονας,
+              widget: string,
+              required: false,
+            }
+          - { name: alt, label: Εναλλακτικο κειμενο εικονας, widget: string }
       - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
       - { label: Content, name: body, widget: markdown }
       - label: 'Meta'
