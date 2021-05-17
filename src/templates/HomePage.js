@@ -61,7 +61,7 @@ export const HomePageTemplate = ({
         <div className='flexCenter m-t-40 m-b-10'>
           <a href='/contact'>
             <button className="button-home">
-              Επικοινωνείστε μαζί μας
+              Επικοινωνήστε μαζί μας
             </button>
           </a>
         </div>
