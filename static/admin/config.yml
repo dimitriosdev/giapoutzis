@@ -332,6 +332,44 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
+  - name: infoPages
+    label: Μπλογκ
+    editor:
+      preview: true
+    folder: content/infoPages
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields:
+      - {
+          label: Template,
+          name: template,
+          widget: hidden,
+          default: DefaultPage,
+        }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Τιτλος, name: heroTitle, widget: string }
+      - { label: Υποτιτλος, name: heroSubtitle, widget: string }
+      - { label: Εικονα, name: heroImage, widget: image }
+      - { label: Κειμενο, name: body, widget: markdown }
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
 
   - name: 'settings'
     label: 'Settings'
