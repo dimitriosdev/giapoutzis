@@ -10,6 +10,7 @@ const PageHeader = ({
   title,
   subtitle,
   heroVideo,
+  heroVideoSec,
   heroImage,
   large,
   className = ''
@@ -21,6 +22,7 @@ const PageHeader = ({
     <div className={`PageHeader relative ${className}`}>
       {heroVideo && (
         <BackgroundVideo poster='https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/' videoTitle='' customClassName={custClass}>
+        {heroVideoSec && <source src={heroVideoSec} type="video/mp4" />}
         {heroVideo && <source src={heroVideo} type="video/webm" />}
       </BackgroundVideo>
       )}

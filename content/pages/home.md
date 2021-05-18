@@ -1,7 +1,8 @@
 ---
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1621087072/intro-vid_maxhv6_awoz4a.webm
+heroVideoSec: https://res.cloudinary.com/duttuhph7/video/upload/v1621335027/intro-vid_max_ios__pfizer_tphyxj.mp4
 template: HomePage
-slug: ""
+slug: ''
 heroTitle: ΞΥΛΙΝΑ ΠΑΤΩΜΑΤΑ
 heroSubtitle: ΓΙΑΠΟΥΤΖΗΣ
 introTitle: Τοποθέτηση ξύλινων δαπέδων
@@ -11,7 +12,7 @@ introSubtitle: >-
   Αναλαμβάνουμε την τοποθέτηση ξύλινων δαπέδων, πατωμάτων laminate, δαπέδων εξωτερικού χώρου - deck σε όλη την Ελλάδα.
 intro:
   - description: Έτος ίδρυσης
-    title: "2001"
+    title: '2001'
   - description: Πελάτες
     title: 500+
   - description: Ποιότητα εργασίας

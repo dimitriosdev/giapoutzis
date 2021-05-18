@@ -13,6 +13,7 @@ export const HomePageTemplate = ({
   heroTitle,
   heroSubtitle,
   heroVideo,
+  heroVideoSec,
   introTitle,
   introSubtitle,
   intro,
@@ -29,6 +30,7 @@ export const HomePageTemplate = ({
       title={heroTitle}
       subtitle={heroSubtitle}
       heroVideo={heroVideo}
+      heroVideoSec={heroVideoSec}
     />
     <Stats
       statTitle={introTitle}
@@ -93,6 +95,7 @@ export const pageQuery = graphql`
         heroTitle
         heroSubtitle
         heroVideo
+        heroVideoSec
         intro {
           title
           description
