@@ -1,44 +1,32 @@
 ---
 template: DefaultPage
-slug: default
-title: Default
-featuredImage: https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/
+slug: sixnes-erotiseis
+heroTitle: Συχνές ερωτήσεις
+heroSubtitle:
+heroImage: https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/
 meta:
-  description: test meta description
-  title: test meta title
+  description: Οι απαντήσεις μας σε συχνές ερωτήσεις σχετικά με τα ξύλινα δάπεδα;
+  title: Συχνές ερωτήσεις
 ---
 
-## This is the DefaultPage template
+### Οι απαντήσεις μας σε συχνές ερωτήσεις
 
-Paragraphs are separated by a blank line.
+- **Γιατί να επιλέξω ξύλινο πάτωμα;**
 
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
+  > Block quotes are written like so.
+  >
+  > They can span multiple paragraphs,
+  > if you like.
 
-### Unordered lists:
+- **Τι είδος ξύλου να επιλέξω για το πάτωμά μου;**
 
-- this one
-- that one
-- the other one
+  > Block quotes are written like so.
+  >
+  > They can span multiple paragraphs,
+  > if you like.
 
-### Ordered lists:
-
-1.  first item
-1.  second item
-1.  third item
-
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+- **Πόσο θα μου κοστίσει η τοποθέτηση ξύλινου δαπέδου;**
+  > Block quotes are written like so.
+  >
+  > They can span multiple paragraphs,
+  > if you like.

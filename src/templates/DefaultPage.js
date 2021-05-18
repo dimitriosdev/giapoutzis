@@ -4,26 +4,26 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import SVGIcon from '../components/SVGIcon'
+// import SVGIcon from '../components/SVGIcon'
 
 // Export Template for use in CMS preview
 export const DefaultPageTemplate = ({
-  title,
-  subtitle,
-  featuredImage,
+  heroTitle,
+  heroSubtitle,
+  heroImage,
   body
 }) => (
   <main className="DefaultPage">
     <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
+      title={heroTitle}
+      subtitle={heroSubtitle}
+      heroImage={heroImage}
     />
 
     <section className="section">
       <div className="container">
         <Content source={body} />
-        <SVGIcon src="/images/calendar.svg" />
+        {/* <SVGIcon src="/images/calendar.svg" /> */}
       </div>
     </section>
   </main>
@@ -45,9 +45,9 @@ export const pageQuery = graphql`
       ...Meta
       html
       frontmatter {
-        title
-        subtitle
-        featuredImage
+        heroTitle
+        heroSubtitle
+        heroImage
       }
     }
   }
