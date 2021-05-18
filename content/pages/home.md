@@ -1,6 +1,5 @@
 ---
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1621087072/intro-vid_maxhv6_awoz4a.webm
-heroVideoSec: https://res.cloudinary.com/duttuhph7/video/upload/v1621335027/intro-vid_max_ios__pfizer_tphyxj.mp4
 template: HomePage
 slug: ''
 heroTitle: ΞΥΛΙΝΑ ΠΑΤΩΜΑΤΑ
@@ -17,8 +16,8 @@ intro:
     title: 500+
   - description: Ποιότητα εργασίας
     title: 100%
-  - description: .
-    title: .
+  - description: ''
+    title: ''
 galleryTitle: Ενδεικτικά project
 gallery:
   - alt: Σπέτσες
@@ -57,6 +56,7 @@ accordion:
 meta:
   description: Τοποθέτηση ξύλινων πατωμάτων, Laminate, deck εξωτερικού χώρου, επενδύσεις, ξύλινες σκάλες
   title: Ξύλινα Πατώματα - Γιαπουτζής
+heroVideoSec: https://res.cloudinary.com/duttuhph7/video/upload/v1621335027/intro-vid_max_ios__pfizer_tphyxj.mp4
 ---
 
 - **[Γιατί να επιλέξω ξύλινο πάτωμα;](/sixnes-erotiseis)**
