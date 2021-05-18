@@ -20,8 +20,8 @@ const PageHeader = ({
   return (
     <div className={`PageHeader relative ${className}`}>
       {heroVideo && (
-        <BackgroundVideo poster='' videoTitle='' customClassName={custClass}>
-        {heroVideo && <source src={heroVideo} type="video/mp4" />}
+        <BackgroundVideo poster='https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/' videoTitle='' customClassName={custClass}>
+        {heroVideo && <source src={heroVideo} type="video/webm" />}
       </BackgroundVideo>
       )}
       {heroImage && (
