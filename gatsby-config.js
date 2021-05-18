@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'xilinapatomata',
-    siteUrl: 'https://xilina.netlify.com'
+    title: 'xilinapatomata.gr',
+    siteUrl: 'https://xilinapatomata.gr'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        id: 'G-5M9L3WG653',
+        id: 'GTM-T9Z6ZL7',
         includeInDevelopment: false
       }
     },
