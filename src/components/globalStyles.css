@@ -310,3 +310,18 @@ blockquote {
   border: 2px solid var(--primary);
   color: black;
 }
+
+.button-home.button-secondary {
+  background: white;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.button-home.button-secondary:hover,
+.button-home.button-secondary:focus {
+  background: var(--primary);
+  color: white;
+  border: 2px solid var(--primary);
+}

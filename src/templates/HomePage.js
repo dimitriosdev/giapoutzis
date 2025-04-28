@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import styles from './HomePage.module.css'
 
 import PageHeader from '../components/PageHeader'
 import Stats from '../components/Stats'
 import Gallery from '../components/Gallery'
-import Accordion from '../components/Accordion'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 
@@ -23,7 +23,6 @@ export const HomePageTemplate = ({
   accordion,
   body
 }) => (
-
   <main className="Home">
     <PageHeader
       large
@@ -35,15 +34,15 @@ export const HomePageTemplate = ({
     <Stats
       statTitle={introTitle}
       statSubtitle={introSubtitle}
-      statIntro={intro}>
-    </Stats>
+      statIntro={intro}
+    ></Stats>
     <section className="section">
       <div className="container">
-        <h3 className='p-b-20'>{galleryTitle}</h3>
+        <h3 className="p-b-20">{galleryTitle}</h3>
         <Gallery images={gallery} />
-        <div className='flexCenter m-t-40 m-b-10'>
-          <a href='/projects'>
-            <button className="button-home">
+        <div className="flexCenter m-t-40 m-b-10">
+          <a href="/projects">
+            <button className="button-home button-secondary">
               Δείτε περισσότερες δουλείες μας
             </button>
           </a>
@@ -52,19 +51,41 @@ export const HomePageTemplate = ({
     </section>
     <section id="services" className="section">
       <div className="container">
-      <h3 className='p-b-20'>{accordionTitle}</h3>
-        <Accordion items={accordion} />
+        <h3 className="p-b-20">{accordionTitle}</h3>
+        {/* Flat display of accordion items with animation and styles */}
+        {accordion && accordion.length > 0 && (
+          <div className={styles.flatAccordionList}>
+            {accordion.map((item, idx) => (
+              <div key={idx} className={styles.flatAccordionItem}>
+                <h4 className={styles.flatAccordionTitle}>{item.title}</h4>
+                {/* Render description as <ul> if it starts with '-' (markdown-style list), else as plain text */}
+                {item.description && item.description.trim().startsWith('-') ? (
+                  <ul className={styles.flatAccordionDescription}>
+                    {item.description
+                      .split('\n')
+                      .filter(line => line.trim().startsWith('-'))
+                      .map((line, i) => (
+                        <li key={i}>{line.replace(/^\s*-\s*/, '')}</li>
+                      ))}
+                  </ul>
+                ) : (
+                  <span className={styles.flatAccordionDescription}>
+                    {item.description}
+                  </span>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
     <section className="section">
       <div className="container">
-        <h3 className='p-b-20'>Συχνές ερωτήσεις</h3>
+        <h3 className="p-b-20">Συχνές ερωτήσεις</h3>
         <Content source={body} />
-        <div className='flexCenter m-t-40 m-b-10'>
-          <a href='/contact'>
-            <button className="button-home">
-              Επικοινωνήστε μαζί μας
-            </button>
+        <div className="flexCenter m-t-40 m-b-10">
+          <a href="/contact">
+            <button className="button-home">Επικοινωνήστε μαζί μας</button>
           </a>
         </div>
       </div>
