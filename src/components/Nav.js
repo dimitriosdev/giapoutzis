@@ -70,6 +70,14 @@ export class Navigation extends Component {
           >
             <Logo />
           </Link>
+          <button
+            className="Button-blank Nav--MenuButton"
+            onClick={this.handleMenuToggle}
+            tabIndex={0}
+            aria-label="Navigation"
+          >
+            {active ? <X /> : <Menu />}
+          </button>
           <div className="Nav--Links">
             <NavLink to="/">Αρχική</NavLink>
             <NavLink to="/#services">Υπηρεσίες</NavLink>
@@ -112,14 +120,6 @@ export class Navigation extends Component {
             {/* <NavLink to="/default/">Default</NavLink> */}
             <NavLink to="/contact/">Επικοινωνία</NavLink>
           </div>
-          <button
-            className="Button-blank Nav--MenuButton"
-            onClick={this.handleMenuToggle}
-            tabIndex={0}
-            aria-label="Navigation"
-          >
-            {active ? <X /> : <Menu />}
-          </button>
         </div>
       </nav>
     )
