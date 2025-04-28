@@ -1,23 +1,23 @@
 ---
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1621087072/intro-vid_maxhv6_awoz4a.webm
 template: HomePage
-slug: ''
+slug: ""
 heroTitle: ΞΥΛΙΝΑ ΠΑΤΩΜΑΤΑ
 heroSubtitle: ΓΙΑΠΟΥΤΖΗΣ
 introTitle: Τοποθέτηση ξύλινων δαπέδων
-introSubtitle: >-
-  Είμαστε ειδικοί στην τοποθέτηση ξύλινου πατώματος.
-
-  Αναλαμβάνουμε την τοποθέτηση ξύλινων δαπέδων, πατωμάτων laminate, δαπέδων εξωτερικού χώρου - deck σε όλη την Ελλάδα.
+introSubtitle: Η τέχνη του ξύλινου δαπέδου στα χέρια των ειδικών. *Ολοκληρωμένες
+  λύσεις, υψηλή αισθητική*. Παρκέ, laminate, δαπέδα εξωτερικού χώρου - deck,
+  αναλαμβάνουμε την τοποθέτηση, προσφέροντας άριστο αποτέλεσμα. Αναλαμβάνουμε
+  την υψηλής ποιότητας τοποθέτηση ξύλινων πατωμάτων.
 intro:
   - description: Έτος ίδρυσης
-    title: '2001'
+    title: "2001"
   - description: Πελάτες
     title: 500+
   - description: Ποιότητα εργασίας
     title: 100%
-  - description: ''
-    title: ''
+  - description: ""
+    title: ""
 galleryTitle: Ενδεικτικά project
 gallery:
   - alt: Σπέτσες
@@ -54,7 +54,8 @@ accordion:
   - description: Επισκευή ξύλινων πατωμάτων παρκέ
     title: Επισκευή
 meta:
-  description: Τοποθέτηση ξύλινων πατωμάτων, Laminate, deck εξωτερικού χώρου, επενδύσεις, ξύλινες σκάλες
+  description: Τοποθέτηση ξύλινων πατωμάτων, Laminate, deck εξωτερικού χώρου,
+    επενδύσεις, ξύλινες σκάλες
   title: Ξύλινα Πατώματα - Γιαπουτζής
 heroVideoSec: https://res.cloudinary.com/duttuhph7/video/upload/v1621335027/intro-vid_max_ios__pfizer_tphyxj.mp4
 ---
