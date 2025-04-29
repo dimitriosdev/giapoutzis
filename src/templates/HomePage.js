@@ -43,7 +43,7 @@ export const HomePageTemplate = ({
         <div className="flexCenter m-t-40 m-b-10">
           <a href="/projects">
             <button className="button-home button-secondary">
-              Δείτε περισσότερες δουλείες..
+              Δείτε περισσότερες δουλείες
             </button>
           </a>
         </div>
