@@ -1,9 +1,9 @@
 ---
 template: DefaultPage
-slug: sixnes-erotiseis
+slug: Γιατί να επιλέξω ξύλινο πάτωμα
 heroTitle: Γιατί να επιλέξω ξύλινο πάτωμα
 heroSubtitle: "Συχνές ερωτήσεις Ξύλινα Πατώματα "
-heroImage: https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/
+heroImage: https://ucarecdn.com/fb832d45-fc75-4045-8916-3cb7242c8ad6/
 meta:
   description: >-
     Ανακαλύψτε όλα όσα πρέπει να γνωρίζετε για τα ξύλινα πατώματα. Ο
