@@ -1,9 +1,9 @@
 ---
 template: DefaultPage
-slug: sixnes-erotiseis
+slug: Τι είδος ξύλου να επιλέξω για το πάτωμά μου;
 heroTitle: Τι είδος ξύλου να επιλέξω για το πάτωμά μου;
 heroSubtitle: Συχνές ερωτήσεις Ξύλινα Πατώματα Τι είδος ξύλου να επιλέξω για το πάτωμά μου;
-heroImage: https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/
+heroImage: https://ucarecdn.com/7927a7ad-7ca1-4c6d-ae4b-278aa5775df8/
 meta:
   description: >-
     Ανακαλύψτε όλα όσα πρέπει να γνωρίζετε για τα ξύλινα πατώματα. Ο
