@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: Τι είδος ξύλου να επιλέξω για το πάτωμά μου;
 heroTitle: Τι είδος ξύλου να επιλέξω για το πάτωμά μου;
-heroSubtitle: Συχνές ερωτήσεις Ξύλινα Πατώματα Τι είδος ξύλου να επιλέξω για το πάτωμά μου;
+heroSubtitle: "Συχνές ερωτήσεις - Ξύλινα Πατώματα "
 heroImage: https://ucarecdn.com/7927a7ad-7ca1-4c6d-ae4b-278aa5775df8/
 meta:
   description: >-
