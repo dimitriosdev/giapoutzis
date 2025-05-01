@@ -60,9 +60,5 @@ meta:
   title: Ξύλινα Πατώματα - Γιαπουτζής
 heroVideoSec: https://res.cloudinary.com/duttuhph7/video/upload/v1621335027/intro-vid_max_ios__pfizer_tphyxj.mp4
 ---
-
-- **[Γιατί να επιλέξω ξύλινο πάτωμα;](/sixnes-erotiseis)**
-
-- **[Τι είδος ξύλου να επιλέξω για το πάτωμά μου;](/sixnes-erotiseis)**
-
-- **[Πόσο θα μου κοστίσει η τοποθέτηση ξύλινου δαπέδου;](/sixnes-erotiseis)**
+* **[Γιατί να επιλέξω ξύλινο πάτωμα;](https://xilinapatomata.gr/giati-na-epilexo-xilino-patoma/)**
+* **[Τι είδος ξύλου να επιλέξω για το πάτωμά μου;](https://xilinapatomata.gr/eidos-xilou)**
