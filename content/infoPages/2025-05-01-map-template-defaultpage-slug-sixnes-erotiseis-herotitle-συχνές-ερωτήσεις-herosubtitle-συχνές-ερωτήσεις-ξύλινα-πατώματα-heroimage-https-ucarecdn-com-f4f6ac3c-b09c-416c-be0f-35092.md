@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: Γιατί να επιλέξω ξύλινο πάτωμα
+slug: giati na epilexo
 heroTitle: Γιατί να επιλέξω ξύλινο πάτωμα
 heroSubtitle: "Συχνές ερωτήσεις Ξύλινα Πατώματα "
 heroImage: https://ucarecdn.com/fb832d45-fc75-4045-8916-3cb7242c8ad6/
