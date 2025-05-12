@@ -1,25 +1,28 @@
 ---
+excerpt: ""
 template: SinglePost
 title: Σπέτσες
-status: Featured / Published
-date: '2018-03-27'
-featuredImage: 'https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/'
-excerpt: >-
+featuredImage: https://ucarecdn.com/ab62e4eb-9da6-44f0-83f3-8189ee873765/
 gallery:
   - alt: Κέρκυρα
     image: https://ucarecdn.com/c21c6304-cb65-4c87-9da0-605e1489d8ba/
-    title:
+    title: null
   - alt: Λυκαβηττός
     image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
-    title:
+    title: null
   - alt: Αγιος Δημήτριος
     image: https://ucarecdn.com/e6d25326-9ff0-4a11-b708-57a2cb4e693f/
-    title:
+    title: null
+  - image: https://ucarecdn.com/a64d8cdf-3949-450b-b71b-5df27413e3f8/
+    alt: deck διπλα σε πισίνα
 categories:
   - category: Deck
+status: Featured / Published
+date: 2018-03-27
 meta:
-  canonicalLink: ''
+  canonicalLink: ""
   description: test meta description
   noindex: false
   title: test meta title
 ---
+Η επιλογή ξύλινου πατώματος αποτελεί μια διαχρονική και ιδιαίτερα ποιοτική λύση για κάθε χώρο, οικιακό ή επαγγελματικό. Το ξύλο είναι φυσικό υλικό, το οποίο προσδίδει στο περιβάλλον μια αίσθηση ζεστασιάς, θαλπωρής και υψηλής αισθητικής. Η υφή του, οι αποχρώσεις του, αλλά και η φυσική ανομοιομορφία του, δημιουργούν μια αίσθηση αυθεντικότητας και πολυτέλειας που δύσκολα επιτυγχάνεται με άλλα υλικά.
