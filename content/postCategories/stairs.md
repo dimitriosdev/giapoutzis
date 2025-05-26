@@ -1,7 +1,6 @@
 ---
 template: BlogIndex
 title: Σκάλες
-subtitle: ''
-heroImage: >-
-  https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/
+subtitle: ""
+heroImage: https://ucarecdn.com/eadc4ce9-05d0-48c8-be71-6fc91a6ddeb3/
 ---
