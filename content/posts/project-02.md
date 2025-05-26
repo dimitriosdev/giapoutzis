@@ -22,6 +22,15 @@ gallery:
     alt: ΜΥΚΟΝΟΣ ΞΥΛΙΝΑ ΠΑΤΩΜΑΤΑ
   - image: https://ucarecdn.com/0758e5a9-0d13-4edc-8be7-d81e94ff0735/
     alt: ΜΥΚΟΝΟΣ ΞΥΛΙΝΑ ΠΑΤΩΜΑΤΑ
+  - image: https://ucarecdn.com/e892de2a-8388-4711-bed9-08bf6d7a3a4c/
+    alt: Ξύλινα Πατώματα
+  - image: https://ucarecdn.com/c96e919a-ccf7-4fb9-8a77-54a7fba3fa3d/
+    title: "Ξύλινα Πατώματα "
+    alt: Ξύλινα Πατώματα και ειδικές κατασκευές στην Μύκονο απο την
+      xilinapatomata.gr
+  - image: https://ucarecdn.com/44a5da88-30d6-4bd5-99ed-d790ee713a54/
+    alt: Ξύλινα Πατώματα και ειδικές κατασκευές στην Μύκονο απο την
+      xilinapatomata.gr
 categories:
   - category: Επενδύσεις εξ.χώρου
   - category: Ειδικές κατασκευές
