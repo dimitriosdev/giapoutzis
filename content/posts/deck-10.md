@@ -1,24 +1,26 @@
 ---
+excerpt: null
 template: SinglePost
 title: Σαντορίνη
-status: Published
-date: '2018-03-28'
-featuredImage: >-
-  https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/
-excerpt:
+featuredImage: https://ucarecdn.com/9dd2f6fd-86e1-4b8f-a8cd-4026d1a133c7/
 gallery:
-  - alt: Κέρκυρα
-    image: https://ucarecdn.com/c21c6304-cb65-4c87-9da0-605e1489d8ba/
-    title:
-  - alt: Λυκαβηττός
-    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
-    title:
-  - alt: Αγιος Δημήτριος
-    image: https://ucarecdn.com/e6d25326-9ff0-4a11-b708-57a2cb4e693f/
-    title:
+  - image: https://ucarecdn.com/3af5eec1-ba99-4535-8217-ea9ec5a27d42/
+    alt: Σαντορίνη πατώματα και ξύλινες κατασκευές απο την xilinapatomata.gr
+  - image: https://ucarecdn.com/4f0f9cb5-d35d-41ca-89e2-6f78ee7f8bb5/
+    alt: Σαντορίνη πατώματα και ξύλινες κατασκευές απο την xilinapatomata.gr
+  - image: https://ucarecdn.com/e570b488-c28b-4e79-a0ef-25f3c7e176fc/
+    alt: Σαντορίνη πατώματα και ξύλινες κατασκευές απο την xilinapatomata.gr
+  - image: https://ucarecdn.com/76326ed1-4a65-402a-98f8-087829d2d29d/
+    alt: Σαντορίνη πατώματα και ξύλινες κατασκευές απο την xilinapatomata.gr
+  - image: https://ucarecdn.com/eb0f2881-6b3d-4634-ae96-059a15e7dab2/
+    alt: Σαντορίνη πατώματα και ξύλινες κατασκευές απο την xilinapatomata.gr
 categories:
   - category: Deck
+  - category: Ειδικές κατασκευές
+  - category: Επενδύσεις εξ.χώρου
+status: Published
+date: 2019-03-28
 meta:
-  description: test meta description
-  title: test meta title
+  description: Σαντορίνη πατώματα και ξύλινες κατασκευές απο την xilinapatomata.gr
+  title: Σαντορίνη πατώματα και ξύλινες κατασκευές
 ---
