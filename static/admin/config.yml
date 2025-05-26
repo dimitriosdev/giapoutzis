@@ -275,7 +275,7 @@ collections: # A list of collections the CMS should be able to edit
         options: ['Published', 'Featured', 'Draft']
         default: 'Published'
       - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
-      - { label: Content, name: body, widget: markdown }
+      - { label: Content, name: body, widget: markdown, required: false }
       - label: 'Meta'
         required: false
         name: 'meta'
@@ -312,6 +312,12 @@ collections: # A list of collections the CMS should be able to edit
           name: featuredImage,
           widget: image,
           required: false,
+        }
+      - {
+          label: Hero Image,
+          name: heroImage,
+          widget: image,
+          required: true,
         }
       - label: 'Meta'
         required: false
