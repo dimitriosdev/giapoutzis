@@ -56,9 +56,10 @@ accordion:
   - description: Επισκευή ξύλινων πατωμάτων παρκέ
     title: Επισκευή
 meta:
-  description: Τοποθέτηση ξύλινων πατωμάτων, Laminate, deck εξωτερικού χώρου,
-    επενδύσεις, ξύλινες σκάλες
-  title: Ξύλινα Πατώματα - Γιαπουτζής
+  description: Τοποθετήσεις ξύλινων πατωμάτων, laminate δαπέδων, deck εξωτερικού
+    χώρου, ξύλινων σκαλών & επενδύσεων. Ποιότητα, εμπειρία & αξιοπιστία στην
+    xilinapatomata.gr - Γιαπουτζής
+  title: Ξύλινα Πατώματα, Laminate & Deck Εξωτερικού Χώρου | xilinapatomata.gr
 heroVideoSec: https://res.cloudinary.com/duttuhph7/video/upload/v1621335027/intro-vid_max_ios__pfizer_tphyxj.mp4
 ---
 * **[Γιατί να επιλέξω ξύλινο πάτωμα;](https://xilinapatomata.gr/giati-na-epilexo-xilino-patoma/)**
