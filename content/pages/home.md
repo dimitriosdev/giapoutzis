@@ -21,22 +21,22 @@ intro:
     title: ""
 galleryTitle: Ενδεικτικά project
 gallery:
-  - alt: Σπέτσες
-    image: https://ucarecdn.com/3f82770f-ab1f-465a-a2f8-f00e33946360/
-    title: Σπέτσες
   - alt: Μύκονος
-    image: https://ucarecdn.com/7031e985-e819-4184-9445-7c1fe0d67c77/
+    image: https://danny.gr/xilina/mykonos/%CE%9A%CE%91%CE%A4%CE%91%CE%A3%CE%9A%CE%95%CE%A5%CE%97-1.jpg
     title: Μύκονος
   - alt: Μύκονος
-    image: https://ucarecdn.com/0dab8fc4-cb21-471f-b495-2c119173a4f1/
+    image: https://danny.gr/xilina/mykonos/%CE%9A%CE%91%CE%A4%CE%91%CE%A3%CE%9A%CE%95%CE%A5%CE%97-2.jpg
     title: Μύκονος
-  - alt: Γαλατάς
-    image: https://ucarecdn.com/c2b5718f-9a16-4999-8539-717afedfd820/
-    title: Γαλατάς
+  - alt: Μύκονος
+    image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-1.jpg
+    title: Μύκονος
+  - alt: Μύκονος
+    image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-1.jpg
+    title: Μύκονος
   - alt: Λυκαβηττός
     image: https://ucarecdn.com/18d81984-9f27-4a00-a0d2-f1ba73d77adb/
     title: Λυκαβηττός
-  - image: https://ucarecdn.com/fb434f37-4055-47ed-84d6-7e43e6fef113/
+  - image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-2.jpg
     alt: Κέρκυρα
     title: Κέρκυρα
 accordionTitle: Υπηρεσίες
