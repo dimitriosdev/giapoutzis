@@ -28,7 +28,7 @@ gallery:
     image: https://danny.gr/xilina/mykonos/%CE%9A%CE%91%CE%A4%CE%91%CE%A3%CE%9A%CE%95%CE%A5%CE%97-1.jpg
     title: Μύκονος
   - alt: Μύκονος
-    image: https://danny.gr/xilina/mykonos/%CE%9A%CE%91%CE%A4%CE%91%CE%A3%CE%9A%CE%95%CE%A5%CE%97-2.jpg
+    image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-3.jpg
     title: Μύκονος
   - alt: Μύκονος
     image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-1.jpg
