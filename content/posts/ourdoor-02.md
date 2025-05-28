@@ -30,6 +30,7 @@ categories:
   - category: Deck
   - category: Laminate
   - category: Σκάλες
+  - category: Πάτωμα
 status: Published
 date: 2024-04-11
 meta:
