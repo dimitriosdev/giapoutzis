@@ -18,6 +18,7 @@ categories:
   - category: Deck
   - category: Ειδικές κατασκευές
   - category: Επενδύσεις εξ.χώρου
+  - category: Πάτωμα
 status: Published
 date: 2019-03-28
 meta:
