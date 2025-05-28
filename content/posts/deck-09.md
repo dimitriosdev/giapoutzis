@@ -14,6 +14,7 @@ gallery:
 categories:
   - category: Deck
   - category: Επενδύσεις εξ.χώρου
+  - category: Πάτωμα
 status: Featured / Published
 date: 2018-03-27
 meta:
