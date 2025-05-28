@@ -1,27 +1,24 @@
 ---
 excerpt: ""
 template: SinglePost
-title: Σπέτσες
-featuredImage: https://ucarecdn.com/ab62e4eb-9da6-44f0-83f3-8189ee873765/
+title: Σκιάθος
+featuredImage: https://ucarecdn.com/21f13d55-4d76-465f-a953-31f75b65700a/
 gallery:
-  - alt: Κέρκυρα
-    image: https://ucarecdn.com/c21c6304-cb65-4c87-9da0-605e1489d8ba/
+  - alt: Σκιάθος Πάτωμα
+    image: https://ucarecdn.com/d3534245-9542-42ae-abd4-a6732472157b/
     title: null
-  - alt: Λυκαβηττός
-    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
-    title: null
-  - alt: Αγιος Δημήτριος
-    image: https://ucarecdn.com/e6d25326-9ff0-4a11-b708-57a2cb4e693f/
-    title: null
-  - image: https://ucarecdn.com/a64d8cdf-3949-450b-b71b-5df27413e3f8/
-    alt: deck διπλα σε πισίνα
+  - image: https://ucarecdn.com/370acfb3-23b8-4365-a766-2222a8deff55/
+    alt: Σκιάθος Πάτωμα
+  - image: https://ucarecdn.com/05e8425e-b847-4ef1-8abb-c139188d3ccf/
+    alt: Σκιάθος Πάτωμα
 categories:
   - category: Deck
+  - category: Επενδύσεις εξ.χώρου
 status: Featured / Published
 date: 2018-03-27
 meta:
   canonicalLink: ""
-  description: test meta description
+  description: Σκιάθος Χύλινα πατώματα κατασκευή εξωτερικών χώρων
   noindex: false
-  title: test meta title
+  title: Σκιάθος Πάτωμα
 ---
