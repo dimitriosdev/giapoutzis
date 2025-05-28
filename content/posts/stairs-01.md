@@ -1,7 +1,7 @@
 ---
 excerpt: ""
 template: SinglePost
-title: Γλυφάδα ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες
+title: Γλυφάδα
 featuredImage: https://ucarecdn.com/2b96f427-5a6d-4854-b869-4c50b60f6632/
 gallery:
   - alt: Γλυφάδα ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες
