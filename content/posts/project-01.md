@@ -1,25 +1,24 @@
 ---
+excerpt: ""
 template: SinglePost
-title: Κέρκυρα
-status: Featured / Published
-date: '2018-03-27'
-featuredImage: 'https://ucarecdn.com/f4f6ac3c-b09c-416c-be0f-35092efa7ef6/'
-excerpt: >-
+title: Εκάλη
+featuredImage: https://ucarecdn.com/fb64695e-ac60-4ca2-8f95-3a848074488b/
 gallery:
-  - alt: Κέρκυρα
-    image: https://ucarecdn.com/c21c6304-cb65-4c87-9da0-605e1489d8ba/
-    title:
-  - alt: Λυκαβηττός
-    image: https://ucarecdn.com/a777b160-164c-4349-9787-74bd6d71b856/
-    title:
-  - alt: Αγιος Δημήτριος
-    image: https://ucarecdn.com/e6d25326-9ff0-4a11-b708-57a2cb4e693f/
-    title:
+  - alt: Εκάλη ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες
+    image: https://ucarecdn.com/bca5f394-61dc-4be4-9cab-a7434ad14b7b/
+  - title: ""
+    image: https://ucarecdn.com/5d52e0ba-6cd4-404d-b88b-cafcd151a204/
+    alt: "Εκάλη ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες "
+  - alt: "Εκάλη ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες "
+    image: https://ucarecdn.com/b44d3091-1c6e-4a8f-ba01-f68cc4db6bf7/
 categories:
-  - category: Deck
+  - category: Laminate
+  - category: Σκάλες
+status: Featured / Published
+date: 2019-03-27
 meta:
-  canonicalLink: ''
-  description: test meta description
+  canonicalLink: ""
+  description: Εκάλη ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες
   noindex: false
-  title: test meta title
+  title: Εκάλη ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες
 ---
