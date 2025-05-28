@@ -1,7 +1,7 @@
 ---
 excerpt: ""
 template: SinglePost
-title: Σύνταγμα
+title: Αθήνα Σύνταγμα
 featuredImage: https://ucarecdn.com/9166faed-e05e-4daf-ab96-bfb392ae588a/
 gallery:
   - image: https://ucarecdn.com/d19f6fb5-8f65-425c-aaa3-f44daba08624/
