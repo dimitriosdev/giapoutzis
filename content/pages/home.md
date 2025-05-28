@@ -2,8 +2,10 @@
 heroVideo: https://res.cloudinary.com/duttuhph7/video/upload/v1621087072/intro-vid_maxhv6_awoz4a.webm
 template: HomePage
 slug: ""
-heroTitle: ΞΥΛΙΝΑ ΠΑΤΩΜΑΤΑ
-heroSubtitle: ΓΙΑΠΟΥΤΖΗΣ
+heroTitle: Ξύλινα Πατώματα, Laminate & Deck Εξωτερικού Χώρου | xilinapatomata.gr
+heroSubtitle: Τοποθετήσεις ξύλινων πατωμάτων, laminate δαπέδων, deck εξωτερικού
+  χώρου, ξύλινων σκαλών & επενδύσεων. Ποιότητα, εμπειρία & αξιοπιστία στην
+  xilinapatomata.gr - Γιαπουτζής
 introTitle: Τοποθέτηση ξύλινων δαπέδων
 introSubtitle: >-
   Η τέχνη του ξύλινου δαπέδου στα χέρια των ειδικών.  Στην xilinapatomata.gr
