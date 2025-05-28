@@ -20,6 +20,12 @@ gallery:
     alt: Βάρκιζα ξύλινα σκάλες πατώματα κατασκευή εξωτερικών χώρων deck
   - alt: Βάρκιζα ξύλινα σκάλες πατώματα κατασκευή εξωτερικών χώρων deck
     image: https://ucarecdn.com/07b42d9d-1a57-4e86-b50e-34b4a5fb0966/
+  - image: https://ucarecdn.com/b1e922d9-58ed-4c00-87a3-7ee1df641ca3/
+    alt: Βάρκιζα ξύλινα σκάλες πατώματα κατασκευή εξωτερικών χώρων deck
+  - image: https://ucarecdn.com/1eb9ce57-4672-4d54-8836-735e07e964bd/
+    alt: Βάρκιζα ξύλινα σκάλες πατώματα κατασκευή εξωτερικών χώρων deck
+  - alt: Βάρκιζα ξύλινα σκάλες πατώματα κατασκευή εξωτερικών χώρων deck
+    image: https://ucarecdn.com/aee3230c-c9c8-4c59-8963-b3abfee60bb2/
 categories:
   - category: Deck
   - category: Laminate
