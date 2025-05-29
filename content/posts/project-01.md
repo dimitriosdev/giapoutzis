@@ -1,5 +1,5 @@
 ---
-excerpt: ""
+excerpt: ''
 template: SinglePost
 title: Εκάλη
 featuredImage: https://ucarecdn.com/fb64695e-ac60-4ca2-8f95-3a848074488b/
@@ -19,7 +19,7 @@ categories:
 status: Featured / Published
 date: 2019-03-27
 meta:
-  canonicalLink: ""
+  canonicalLink: ''
   description: Εκάλη ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες
   noindex: false
   title: Εκάλη ξύλινα πατώματα ειδικές κατασκευές εξωτερικού χώρου deck σκάλες

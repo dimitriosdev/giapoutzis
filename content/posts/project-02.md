@@ -1,5 +1,5 @@
 ---
-excerpt: ""
+excerpt: ''
 template: SinglePost
 title: Μύκονος
 featuredImage: https://ucarecdn.com/3bfc3e52-d5d4-4d73-835f-578c603e97ac/
@@ -50,4 +50,5 @@ meta:
   description: Ξύλινα Πατώματα και ειδικές κατασκευές στην Μύκονο απο την xilinapatomata.gr
   title: Ξύλινα Πατώματα και ειδικές κατασκευές στην Μύκονο
 ---
+
 Ξύλινα Πατώματα και ειδικές κατασκευές στην Μύκονο απο την xilinapatomata.gr
