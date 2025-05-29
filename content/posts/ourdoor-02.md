@@ -28,7 +28,6 @@ gallery:
     image: https://ucarecdn.com/aee3230c-c9c8-4c59-8963-b3abfee60bb2/
 categories:
   - category: Deck
-  - category: Laminate
   - category: Σκάλες
   - category: Πάτωμα
 status: Published
