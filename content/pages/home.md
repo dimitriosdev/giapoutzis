@@ -40,7 +40,7 @@ gallery:
   - alt: Λυκαβηττός Πάτωμα
     image: https://ucarecdn.com/18d81984-9f27-4a00-a0d2-f1ba73d77adb/
     title: Λυκαβηττός
-  - image: https://ucarecdn.com/e986b9e7-ce09-47f3-acb6-69ed8bba0869/
+  - image: https://ucarecdn.com/8840520d-8b30-462f-acc8-9298c658bcea/
     alt: Κυκλάδες ξύλινες κατασκευές
     title: Κυκλάδες
 accordionTitle: Υπηρεσίες
