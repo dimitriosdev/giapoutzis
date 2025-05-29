@@ -43,6 +43,9 @@ gallery:
   - image: https://ucarecdn.com/a5e0d5dd-2ae5-47f7-9db1-45946f3b060e/
     alt: " ξύλινες κατασκευές"
     title: Costa Navarino
+  - image: https://ucarecdn.com/ea374b0f-5513-4c76-bd64-e58a226265c9/-/crop/1306x1270/70,79/-/preview/
+    title: Διόνυσος
+    alt: Διόνυσος σκαλες
 accordionTitle: Υπηρεσίες
 accordion:
   - description: |-
