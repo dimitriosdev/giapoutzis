@@ -17,12 +17,12 @@ introSubtitle: >-
 intro:
   - description: Έτος ίδρυσης
     title: "2001"
-  - description: Πελάτες
+  - description: Ολοκληρωμένα έργα
     title: 500+
-  - description: Ποιότητα εργασίας
+  - description: Ικανοποίηση πελατών
     title: 100%
-  - description: ""
-    title: ""
+  - description: μέτρα ξύλου τοποθετημένα
+    title: 1.000.000+
 galleryTitle: Ενδεικτικά project
 gallery:
   - alt: Ψυχικό πάτωμα
