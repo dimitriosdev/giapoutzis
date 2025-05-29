@@ -40,9 +40,9 @@ gallery:
   - alt: Λυκαβηττός Πάτωμα
     image: https://ucarecdn.com/18d81984-9f27-4a00-a0d2-f1ba73d77adb/
     title: Λυκαβηττός
-  - image: https://ucarecdn.com/8840520d-8b30-462f-acc8-9298c658bcea/
-    alt: Κυκλάδες ξύλινες κατασκευές
-    title: Κυκλάδες
+  - image: https://ucarecdn.com/a5e0d5dd-2ae5-47f7-9db1-45946f3b060e/
+    alt: " ξύλινες κατασκευές"
+    title: Costa Navarino
 accordionTitle: Υπηρεσίες
 accordion:
   - description: |-
