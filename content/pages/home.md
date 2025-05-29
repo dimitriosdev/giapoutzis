@@ -24,24 +24,24 @@ intro:
     title: ""
 galleryTitle: Ενδεικτικά project
 gallery:
-  - alt: Μύκονος
-    image: https://danny.gr/xilina/mykonos/%CE%9A%CE%91%CE%A4%CE%91%CE%A3%CE%9A%CE%95%CE%A5%CE%97-1.jpg
-    title: Μύκονος
+  - alt: Ψυχικό πάτωμα
+    image: https://danny.gr/xilina/psihiko/%ce%a0%ce%91%ce%a4%ce%a9%ce%9c%ce%91-4.jpg
+    title: Ψυχικό
   - alt: Μύκονος
     image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-3.jpg
     title: Μύκονος
-  - alt: Μύκονος
-    image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-1.jpg
-    title: Μύκονος
-  - alt: Μύκονος
-    image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-1.jpg
-    title: Μύκονος
-  - alt: Λυκαβηττός
+  - alt: Άλιμος πατώματα σκάλες
+    image: https://danny.gr/xilina/alimos/%ce%a0%ce%91%ce%a4%ce%a9%ce%9c%ce%91-1.jpg
+    title: Άλιμος
+  - alt: Καφλάρι Κηφισιά
+    image: https://danny.gr/xilina/kefalari/%ce%a0%ce%91%ce%a4%ce%a9%ce%9c%ce%91-1.jpeg
+    title: "Κεφαλάρι "
+  - alt: Λυκαβηττός Πάτωμα
     image: https://ucarecdn.com/18d81984-9f27-4a00-a0d2-f1ba73d77adb/
     title: Λυκαβηττός
   - image: https://danny.gr/xilina/mykonos/%CE%A0%CE%91%CE%A4%CE%A9%CE%9C%CE%91-2.jpg
-    alt: Κέρκυρα
-    title: Κέρκυρα
+    alt: Κυκλάδες ξύλινες κατασκευές
+    title: Κυκλάδες
 accordionTitle: Υπηρεσίες
 accordion:
   - description: |-
