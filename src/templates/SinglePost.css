@@ -2,6 +2,14 @@
   background: var(--lightGrey);
 }
 
+.pswp__caption__center {
+  display: none !important;
+}
+
+.figcaption {
+  display: none !important;
+}
+
 .SinglePost--BackButton {
   color: var(--darkGrey);
   position: relative;
