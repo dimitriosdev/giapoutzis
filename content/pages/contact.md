@@ -8,7 +8,7 @@ phone: +30 6944 756725
 instagram: https://www.instagram.com/giapoutzis_t/
 facebook: https://www.facebook.com/tolisgiap1
 address: Στρατηγού Μακρυγιάννη 122 43 Αιγάλεω, Ελλάδα
-email: tolisgiap@yahoo.gr
+email: info@xilinapatomata.gr
 locations:
   - lat: "-27.9654732"
     lng: "153.2432449"
