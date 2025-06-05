@@ -50,7 +50,7 @@ module.exports = {
         background_color: '#6d8536',
         theme_color: '#6d8536',
         display: 'standalone',
-        icon: `${__dirname}/static/images/logo.png` 
+        icon: `${__dirname}/static/images/logo.png`
       }
     },
 
@@ -127,8 +127,8 @@ module.exports = {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         output: '/sitemap.xml',
-        exclude: ['/admin/*'],
-      },
+        exclude: ['/admin/*']
+      }
     },
     {
       resolve: 'gatsby-plugin-netlify-cms',
