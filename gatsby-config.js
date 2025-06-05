@@ -123,7 +123,13 @@ module.exports = {
         showSpinner: false
       }
     },
-    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: '/sitemap.xml',
+        exclude: ['/admin/*'],
+      },
+    },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
