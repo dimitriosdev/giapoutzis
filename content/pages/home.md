@@ -68,5 +68,10 @@ meta:
   title: Ξύλινα Πατώματα, Laminate & Deck Εξωτερικού Χώρου | xilinapatomata.gr
 heroVideoSec: https://res.cloudinary.com/duttuhph7/video/upload/v1621335027/intro-vid_max_ios__pfizer_tphyxj.mp4
 ---
-* **[Γιατί να επιλέξω ξύλινο πάτωμα;](https://xilinapatomata.gr/giati-na-epilexo-xilino-patoma/)**
-* **[Τι είδος ξύλου να επιλέξω για το πάτωμά μου;](https://xilinapatomata.gr/eidos-xilou)**
+
+
+✅  **[Ξύλινα Πατώματα: Η Ποιότητα και η Αισθητική στην Καρδιά του Σπιτιού σας](https://xilinapatomata.gr/xilinapataomata-athina-topothetisi-parke-laminate/)**
+
+✅ [Γιατί να επιλέξω ξύλινο πάτωμα;](https://xilinapatomata.gr/giati-na-epilexo-xilino-patoma/)
+
+✅ [Τι είδος ξύλου να επιλέξω για το πάτωμά μου;](https://xilinapatomata.gr/eidos-xilou)
